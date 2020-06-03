@@ -1,0 +1,29 @@
+[2020-06-02 15:16:37,316] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02T09:46:10.823072+00:00 [queued]>
+[2020-06-02 15:16:37,323] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02T09:46:10.823072+00:00 [queued]>
+[2020-06-02 15:16:37,324] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 15:16:37,324] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-02 15:16:37,324] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-02 15:16:37,450] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): get_covid_data_task> on 2020-06-02T09:46:10.823072+00:00
+[2020-06-02 15:16:37,470] {standard_task_runner.py:53} INFO - Started process 273 to run task
+[2020-06-02 15:16:37,808] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02T09:46:10.823072+00:00 [running]> LAPTOP-P8ICNHVB.localdomain
+[2020-06-02 15:16:38,600] {taskinstance.py:1145} ERROR - [Errno 2] No such file or directory: 'airflow/plugins/Output/CovidStats(2020-02-06).csv'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/mnt/c/dag/covid_tasks.py", line 53, in get_statewise_data
+    df.to_csv(f'airflow/plugins/Output/CovidStats({today}).csv', index=False)
+  File "/usr/local/lib/python3.8/dist-packages/pandas/core/generic.py", line 3228, in to_csv
+    formatter.save()
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/formats/csvs.py", line 179, in save
+    f, handles = _get_handle(
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/common.py", line 399, in _get_handle
+    f = open(path_or_buf, mode, encoding=encoding, newline="")
+FileNotFoundError: [Errno 2] No such file or directory: 'airflow/plugins/Output/CovidStats(2020-02-06).csv'
+[2020-06-02 15:16:38,606] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-06-02 15:16:47,211] {logging_mixin.py:112} INFO - [2020-06-02 15:16:47,209] {local_task_job.py:103} INFO - Task exited with return code 1

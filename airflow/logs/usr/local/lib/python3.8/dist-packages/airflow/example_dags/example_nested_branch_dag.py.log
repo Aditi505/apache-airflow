@@ -1,0 +1,105 @@
+[2020-06-01 14:52:47,409] {scheduler_job.py:153} INFO - Started process (PID=512) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:52:47,414] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:52:47,415] {logging_mixin.py:112} INFO - [2020-06-01 14:52:47,415] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:52:47,429] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:52:47,570] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.162 seconds
+[2020-06-01 14:53:35,473] {scheduler_job.py:153} INFO - Started process (PID=575) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:53:35,478] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:53:35,478] {logging_mixin.py:112} INFO - [2020-06-01 14:53:35,478] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:53:35,491] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:53:35,636] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.163 seconds
+[2020-06-01 14:54:23,500] {scheduler_job.py:153} INFO - Started process (PID=607) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:54:23,508] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:54:23,508] {logging_mixin.py:112} INFO - [2020-06-01 14:54:23,508] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:54:23,522] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:54:23,770] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.270 seconds
+[2020-06-01 14:55:11,559] {scheduler_job.py:153} INFO - Started process (PID=635) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:55:11,564] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:55:11,565] {logging_mixin.py:112} INFO - [2020-06-01 14:55:11,565] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:55:11,577] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:55:11,702] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.143 seconds
+[2020-06-01 14:55:59,565] {scheduler_job.py:153} INFO - Started process (PID=667) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:55:59,571] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:55:59,571] {logging_mixin.py:112} INFO - [2020-06-01 14:55:59,571] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:55:59,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:55:59,740] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 14:57:30,203] {scheduler_job.py:153} INFO - Started process (PID=737) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:57:30,208] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:57:30,209] {logging_mixin.py:112} INFO - [2020-06-01 14:57:30,209] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:57:30,220] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:57:30,390] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.187 seconds
+[2020-06-01 14:58:19,080] {scheduler_job.py:153} INFO - Started process (PID=769) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:58:19,085] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:58:19,085] {logging_mixin.py:112} INFO - [2020-06-01 14:58:19,085] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:58:19,097] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:58:19,294] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.214 seconds
+[2020-06-01 14:59:07,122] {scheduler_job.py:153} INFO - Started process (PID=797) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:59:07,128] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:59:07,128] {logging_mixin.py:112} INFO - [2020-06-01 14:59:07,128] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:59:07,142] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:59:07,278] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.156 seconds
+[2020-06-01 14:59:55,170] {scheduler_job.py:153} INFO - Started process (PID=829) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:59:55,176] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 14:59:55,177] {logging_mixin.py:112} INFO - [2020-06-01 14:59:55,176] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:59:55,190] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 14:59:55,370] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.200 seconds
+[2020-06-01 15:00:43,241] {scheduler_job.py:153} INFO - Started process (PID=857) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:00:43,247] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 15:00:43,248] {logging_mixin.py:112} INFO - [2020-06-01 15:00:43,248] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:00:43,260] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:00:43,380] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.139 seconds
+[2020-06-01 15:01:31,289] {scheduler_job.py:153} INFO - Started process (PID=889) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:01:31,297] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 15:01:31,297] {logging_mixin.py:112} INFO - [2020-06-01 15:01:31,297] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:01:31,310] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:01:31,445] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.156 seconds
+[2020-06-01 15:02:19,354] {scheduler_job.py:153} INFO - Started process (PID=917) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:02:19,359] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 15:02:19,360] {logging_mixin.py:112} INFO - [2020-06-01 15:02:19,360] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:02:19,372] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:02:19,512] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.158 seconds
+[2020-06-01 15:03:07,408] {scheduler_job.py:153} INFO - Started process (PID=949) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:03:07,415] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2020-06-01 15:03:07,415] {logging_mixin.py:112} INFO - [2020-06-01 15:03:07,415] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:03:07,433] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py
+[2020-06-01 15:03:07,591] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_nested_branch_dag.py took 0.183 seconds

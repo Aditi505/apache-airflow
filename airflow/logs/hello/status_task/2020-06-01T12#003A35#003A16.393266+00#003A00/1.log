@@ -1,0 +1,14 @@
+[2020-06-01 18:07:38,381] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: hello.status_task 2020-06-01T12:35:16.393266+00:00 [queued]>
+[2020-06-01 18:07:38,391] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: hello.status_task 2020-06-01T12:35:16.393266+00:00 [queued]>
+[2020-06-01 18:07:38,391] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 18:07:38,392] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-01 18:07:38,392] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 18:07:38,475] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): status_task> on 2020-06-01T12:35:16.393266+00:00
+[2020-06-01 18:07:38,494] {standard_task_runner.py:53} INFO - Started process 1032 to run task
+[2020-06-01 18:07:38,699] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: hello.status_task 2020-06-01T12:35:16.393266+00:00 [running]> LAPTOP-P8ICNHVB.localdomain
+[2020-06-01 18:07:38,716] {logging_mixin.py:112} INFO - All data for today is stored in csv file
+[2020-06-01 18:07:38,717] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-06-01 18:07:38,722] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=hello, task_id=status_task, execution_date=20200601T123516, start_date=20200601T123738, end_date=20200601T123738
+[2020-06-01 18:07:48,250] {logging_mixin.py:112} INFO - [2020-06-01 18:07:48,249] {local_task_job.py:103} INFO - Task exited with return code 0

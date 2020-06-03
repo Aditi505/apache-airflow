@@ -1,0 +1,65 @@
+[2020-06-01 14:53:19,399] {scheduler_job.py:153} INFO - Started process (PID=552) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:53:19,404] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:53:19,405] {logging_mixin.py:112} INFO - [2020-06-01 14:53:19,405] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:53:19,414] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:53:19,716] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.317 seconds
+[2020-06-01 14:54:07,459] {scheduler_job.py:153} INFO - Started process (PID=595) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:54:07,464] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:54:07,465] {logging_mixin.py:112} INFO - [2020-06-01 14:54:07,465] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:54:07,473] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:54:07,632] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.173 seconds
+[2020-06-01 14:54:55,518] {scheduler_job.py:153} INFO - Started process (PID=627) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:54:55,525] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:54:55,526] {logging_mixin.py:112} INFO - [2020-06-01 14:54:55,526] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:54:55,537] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:54:55,690] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.172 seconds
+[2020-06-01 14:55:43,557] {scheduler_job.py:153} INFO - Started process (PID=655) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:55:43,562] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:55:43,563] {logging_mixin.py:112} INFO - [2020-06-01 14:55:43,562] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:55:43,571] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:55:43,700] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.143 seconds
+[2020-06-01 14:56:31,605] {scheduler_job.py:153} INFO - Started process (PID=687) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:56:31,611] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:56:31,612] {logging_mixin.py:112} INFO - [2020-06-01 14:56:31,611] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:56:31,621] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:56:31,793] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.188 seconds
+[2020-06-01 14:57:22,200] {scheduler_job.py:153} INFO - Started process (PID=733) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:57:22,206] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:57:22,206] {logging_mixin.py:112} INFO - [2020-06-01 14:57:22,206] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:57:22,214] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:57:22,353] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.152 seconds
+[2020-06-01 14:58:11,066] {scheduler_job.py:153} INFO - Started process (PID=765) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:58:11,074] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:58:11,075] {logging_mixin.py:112} INFO - [2020-06-01 14:58:11,075] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:58:11,084] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:58:11,262] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.196 seconds
+[2020-06-01 14:58:59,121] {scheduler_job.py:153} INFO - Started process (PID=793) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:58:59,129] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:58:59,129] {logging_mixin.py:112} INFO - [2020-06-01 14:58:59,129] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:58:59,141] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:58:59,308] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.187 seconds
+[2020-06-01 14:59:47,173] {scheduler_job.py:153} INFO - Started process (PID=825) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:59:47,178] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 14:59:47,179] {logging_mixin.py:112} INFO - [2020-06-01 14:59:47,179] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:59:47,187] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 14:59:47,311] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.138 seconds
+[2020-06-01 15:00:35,232] {scheduler_job.py:153} INFO - Started process (PID=853) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:00:35,237] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 15:00:35,238] {logging_mixin.py:112} INFO - [2020-06-01 15:00:35,238] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:00:35,248] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:00:35,373] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.141 seconds
+[2020-06-01 15:01:23,282] {scheduler_job.py:153} INFO - Started process (PID=885) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:01:23,289] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 15:01:23,290] {logging_mixin.py:112} INFO - [2020-06-01 15:01:23,290] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:01:23,297] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:01:23,677] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.395 seconds
+[2020-06-01 15:02:11,347] {scheduler_job.py:153} INFO - Started process (PID=913) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:02:11,353] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 15:02:11,353] {logging_mixin.py:112} INFO - [2020-06-01 15:02:11,353] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:02:11,362] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:02:11,516] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.169 seconds
+[2020-06-01 15:02:59,395] {scheduler_job.py:153} INFO - Started process (PID=945) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:02:59,400] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2020-06-01 15:02:59,401] {logging_mixin.py:112} INFO - [2020-06-01 15:02:59,401] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:02:59,409] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py
+[2020-06-01 15:02:59,594] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/test_utils.py took 0.199 seconds

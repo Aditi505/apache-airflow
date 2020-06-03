@@ -1,0 +1,1336 @@
+[2020-06-01 15:15:37,675] {scheduler_job.py:153} INFO - Started process (PID=1119) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:15:37,680] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:15:37,680] {logging_mixin.py:112} INFO - [2020-06-01 15:15:37,680] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:15:37,689] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:15:37,965] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 15:16:27,707] {scheduler_job.py:153} INFO - Started process (PID=1152) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:16:27,712] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:16:27,712] {logging_mixin.py:112} INFO - [2020-06-01 15:16:27,712] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:16:27,721] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:16:27,897] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.191 seconds
+[2020-06-01 15:17:17,753] {scheduler_job.py:153} INFO - Started process (PID=1185) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:17:17,758] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:17:17,758] {logging_mixin.py:112} INFO - [2020-06-01 15:17:17,758] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:17:17,767] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:17:17,919] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.166 seconds
+[2020-06-01 15:18:07,864] {scheduler_job.py:153} INFO - Started process (PID=1214) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:18:07,874] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:18:07,875] {logging_mixin.py:112} INFO - [2020-06-01 15:18:07,874] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:18:07,896] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:18:08,078] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.214 seconds
+[2020-06-01 15:18:57,862] {scheduler_job.py:153} INFO - Started process (PID=1247) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:18:57,867] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:18:57,868] {logging_mixin.py:112} INFO - [2020-06-01 15:18:57,868] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:18:57,877] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:18:58,003] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.141 seconds
+[2020-06-01 15:19:47,888] {scheduler_job.py:153} INFO - Started process (PID=1276) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:19:47,893] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:19:47,894] {logging_mixin.py:112} INFO - [2020-06-01 15:19:47,894] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:19:47,904] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:19:48,048] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.160 seconds
+[2020-06-01 15:20:37,911] {scheduler_job.py:153} INFO - Started process (PID=1309) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:20:37,916] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:20:37,917] {logging_mixin.py:112} INFO - [2020-06-01 15:20:37,917] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:20:37,926] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:20:38,141] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 15:21:27,985] {scheduler_job.py:153} INFO - Started process (PID=1342) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:21:27,990] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:21:27,990] {logging_mixin.py:112} INFO - [2020-06-01 15:21:27,990] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:21:28,000] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:21:28,159] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.175 seconds
+[2020-06-01 15:26:25,177] {scheduler_job.py:153} INFO - Started process (PID=1399) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:26:25,182] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:26:25,183] {logging_mixin.py:112} INFO - [2020-06-01 15:26:25,183] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:26:37,075] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:26:37,478] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 12.301 seconds
+[2020-06-01 15:26:57,678] {scheduler_job.py:153} INFO - Started process (PID=1424) to work on /mnt/c/dag/hello.py
+[2020-06-01 15:26:57,684] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 15:26:57,685] {logging_mixin.py:112} INFO - [2020-06-01 15:26:57,685] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 15:26:57,940] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 15:26:58,826] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 1.148 seconds
+[2020-06-01 17:42:32,235] {scheduler_job.py:153} INFO - Started process (PID=92) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:42:32,257] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:42:32,257] {logging_mixin.py:112} INFO - [2020-06-01 17:42:32,257] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:42:32,675] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:42:32,902] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.667 seconds
+[2020-06-01 17:43:22,293] {scheduler_job.py:153} INFO - Started process (PID=121) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:43:22,298] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:43:22,299] {logging_mixin.py:112} INFO - [2020-06-01 17:43:22,299] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:43:22,561] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:43:22,680] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.387 seconds
+[2020-06-01 17:44:12,346] {scheduler_job.py:153} INFO - Started process (PID=154) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:44:12,351] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:44:12,351] {logging_mixin.py:112} INFO - [2020-06-01 17:44:12,351] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:44:12,599] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:44:12,701] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.355 seconds
+[2020-06-01 17:45:02,398] {scheduler_job.py:153} INFO - Started process (PID=183) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:45:02,403] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:45:02,404] {logging_mixin.py:112} INFO - [2020-06-01 17:45:02,404] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:45:02,665] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:45:02,800] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.402 seconds
+[2020-06-01 17:45:52,431] {scheduler_job.py:153} INFO - Started process (PID=216) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:45:52,437] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:45:52,437] {logging_mixin.py:112} INFO - [2020-06-01 17:45:52,437] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:45:52,678] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:45:52,788] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.357 seconds
+[2020-06-01 17:46:42,457] {scheduler_job.py:153} INFO - Started process (PID=246) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:46:42,463] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:46:42,464] {logging_mixin.py:112} INFO - [2020-06-01 17:46:42,464] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:46:42,794] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:46:42,921] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.464 seconds
+[2020-06-01 17:47:32,510] {scheduler_job.py:153} INFO - Started process (PID=278) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:47:32,515] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:47:32,516] {logging_mixin.py:112} INFO - [2020-06-01 17:47:32,515] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:47:32,796] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:47:32,953] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.444 seconds
+[2020-06-01 17:48:22,544] {scheduler_job.py:153} INFO - Started process (PID=311) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:48:22,549] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:48:22,549] {logging_mixin.py:112} INFO - [2020-06-01 17:48:22,549] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:48:22,804] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:48:22,932] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.389 seconds
+[2020-06-01 17:49:12,622] {scheduler_job.py:153} INFO - Started process (PID=340) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:49:12,627] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:49:12,628] {logging_mixin.py:112} INFO - [2020-06-01 17:49:12,628] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:49:12,880] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:49:13,001] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.379 seconds
+[2020-06-01 17:50:02,721] {scheduler_job.py:153} INFO - Started process (PID=373) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:50:02,729] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:50:02,730] {logging_mixin.py:112} INFO - [2020-06-01 17:50:02,730] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:50:03,057] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:50:03,301] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.580 seconds
+[2020-06-01 17:50:52,846] {scheduler_job.py:153} INFO - Started process (PID=402) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:50:52,852] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:50:52,853] {logging_mixin.py:112} INFO - [2020-06-01 17:50:52,853] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:50:53,100] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:50:53,253] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.407 seconds
+[2020-06-01 17:51:42,879] {scheduler_job.py:153} INFO - Started process (PID=435) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:51:42,884] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:51:42,885] {logging_mixin.py:112} INFO - [2020-06-01 17:51:42,885] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:51:43,162] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:51:43,287] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.408 seconds
+[2020-06-01 17:52:32,961] {scheduler_job.py:153} INFO - Started process (PID=464) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:52:32,970] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:52:32,970] {logging_mixin.py:112} INFO - [2020-06-01 17:52:32,970] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:52:33,505] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:52:33,703] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.742 seconds
+[2020-06-01 17:53:23,042] {scheduler_job.py:153} INFO - Started process (PID=497) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:53:23,048] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:53:23,048] {logging_mixin.py:112} INFO - [2020-06-01 17:53:23,048] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:53:23,364] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:53:23,589] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.547 seconds
+[2020-06-01 17:54:13,132] {scheduler_job.py:153} INFO - Started process (PID=530) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:54:13,137] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:54:13,138] {logging_mixin.py:112} INFO - [2020-06-01 17:54:13,138] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:54:13,397] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:54:13,507] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.375 seconds
+[2020-06-01 17:55:03,235] {scheduler_job.py:153} INFO - Started process (PID=559) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:55:03,240] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:55:03,240] {logging_mixin.py:112} INFO - [2020-06-01 17:55:03,240] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:55:03,496] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:55:03,640] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.406 seconds
+[2020-06-01 17:55:53,327] {scheduler_job.py:153} INFO - Started process (PID=592) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:55:53,332] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:55:53,333] {logging_mixin.py:112} INFO - [2020-06-01 17:55:53,332] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:55:53,620] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:55:53,732] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.405 seconds
+[2020-06-01 17:56:43,416] {scheduler_job.py:153} INFO - Started process (PID=621) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:56:43,422] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:56:43,422] {logging_mixin.py:112} INFO - [2020-06-01 17:56:43,422] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:56:43,679] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:56:43,817] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.401 seconds
+[2020-06-01 17:57:33,520] {scheduler_job.py:153} INFO - Started process (PID=654) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:57:33,525] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:57:33,526] {logging_mixin.py:112} INFO - [2020-06-01 17:57:33,526] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:57:33,789] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:57:33,905] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.386 seconds
+[2020-06-01 17:58:23,580] {scheduler_job.py:153} INFO - Started process (PID=683) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:58:23,585] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:58:23,586] {logging_mixin.py:112} INFO - [2020-06-01 17:58:23,586] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:58:23,827] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:58:23,960] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.380 seconds
+[2020-06-01 17:59:13,686] {scheduler_job.py:153} INFO - Started process (PID=716) to work on /mnt/c/dag/hello.py
+[2020-06-01 17:59:13,692] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 17:59:13,692] {logging_mixin.py:112} INFO - [2020-06-01 17:59:13,692] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 17:59:13,941] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 17:59:14,071] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.385 seconds
+[2020-06-01 18:00:03,858] {scheduler_job.py:153} INFO - Started process (PID=749) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:00:03,865] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:00:03,865] {logging_mixin.py:112} INFO - [2020-06-01 18:00:03,865] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:00:04,125] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:00:04,251] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.393 seconds
+[2020-06-01 18:00:53,895] {scheduler_job.py:153} INFO - Started process (PID=778) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:00:53,901] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:00:53,902] {logging_mixin.py:112} INFO - [2020-06-01 18:00:53,902] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:00:54,186] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:00:54,339] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.444 seconds
+[2020-06-01 18:01:43,990] {scheduler_job.py:153} INFO - Started process (PID=811) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:01:43,998] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:01:43,999] {logging_mixin.py:112} INFO - [2020-06-01 18:01:43,999] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:01:44,268] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:01:44,388] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.399 seconds
+[2020-06-01 18:02:34,058] {scheduler_job.py:153} INFO - Started process (PID=840) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:02:34,063] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:02:34,063] {logging_mixin.py:112} INFO - [2020-06-01 18:02:34,063] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:02:34,298] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:02:34,447] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.390 seconds
+[2020-06-01 18:03:24,058] {scheduler_job.py:153} INFO - Started process (PID=873) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:03:24,064] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:03:24,064] {logging_mixin.py:112} INFO - [2020-06-01 18:03:24,064] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:03:24,336] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:03:24,980] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.922 seconds
+[2020-06-01 18:04:14,084] {scheduler_job.py:153} INFO - Started process (PID=902) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:04:14,089] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:04:14,090] {logging_mixin.py:112} INFO - [2020-06-01 18:04:14,090] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:04:14,347] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:04:14,472] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.388 seconds
+[2020-06-01 18:05:04,121] {scheduler_job.py:153} INFO - Started process (PID=935) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:05:04,127] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:05:04,128] {logging_mixin.py:112} INFO - [2020-06-01 18:05:04,128] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:05:04,541] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:05:04,728] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.607 seconds
+[2020-06-01 18:05:54,134] {scheduler_job.py:153} INFO - Started process (PID=964) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:05:54,139] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:05:54,140] {logging_mixin.py:112} INFO - [2020-06-01 18:05:54,139] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:05:54,387] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:05:54,541] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:05:54,554] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 09:52:59.612161+00:00: manual__2020-06-01T09:52:59.612161+00:00, externally triggered: True>
+[2020-06-01 18:05:54,558] {logging_mixin.py:112} INFO - [2020-06-01 18:05:54,558] {dagrun.py:374} WARNING - Failed to get task '<TaskInstance: hello.print_date 2020-06-01 09:52:59.612161+00:00 [None]>' for dag '<DAG: hello>'. Marking it as removed.
+[2020-06-01 18:05:54,559] {logging_mixin.py:112} INFO - [2020-06-01 18:05:54,559] {dagrun.py:374} WARNING - Failed to get task '<TaskInstance: hello.sleep 2020-06-01 09:52:59.612161+00:00 [None]>' for dag '<DAG: hello>'. Marking it as removed.
+[2020-06-01 18:05:54,559] {logging_mixin.py:112} INFO - [2020-06-01 18:05:54,559] {dagrun.py:374} WARNING - Failed to get task '<TaskInstance: hello.templated 2020-06-01 09:52:59.612161+00:00 [None]>' for dag '<DAG: hello>'. Marking it as removed.
+[2020-06-01 18:05:54,722] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 12:12:57.192601+00:00: manual__2020-06-01T12:12:57.192601+00:00, externally triggered: True>
+[2020-06-01 18:05:54,734] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 12:35:16.393266+00:00: manual__2020-06-01T12:35:16.393266+00:00, externally triggered: True>
+[2020-06-01 18:05:54,764] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:05:54,767] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.get_covid_data_task 2020-06-01 09:52:59.612161+00:00 [scheduled]> in ORM
+[2020-06-01 18:05:54,771] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.get_covid_data_task 2020-06-01 12:12:57.192601+00:00 [scheduled]> in ORM
+[2020-06-01 18:05:54,775] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.get_covid_data_task 2020-06-01 12:35:16.393266+00:00 [scheduled]> in ORM
+[2020-06-01 18:05:54,900] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.766 seconds
+[2020-06-01 18:07:21,054] {scheduler_job.py:153} INFO - Started process (PID=1019) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:07:21,060] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:07:21,060] {logging_mixin.py:112} INFO - [2020-06-01 18:07:21,060] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:07:21,333] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:07:21,443] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:07:21,460] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 09:52:59.612161+00:00: manual__2020-06-01T09:52:59.612161+00:00, externally triggered: True>
+[2020-06-01 18:07:21,474] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 12:12:57.192601+00:00: manual__2020-06-01T12:12:57.192601+00:00, externally triggered: True>
+[2020-06-01 18:07:21,485] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 12:35:16.393266+00:00: manual__2020-06-01T12:35:16.393266+00:00, externally triggered: True>
+[2020-06-01 18:07:21,515] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:07:21,519] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.status_task 2020-06-01 09:52:59.612161+00:00 [scheduled]> in ORM
+[2020-06-01 18:07:21,523] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.status_task 2020-06-01 12:12:57.192601+00:00 [scheduled]> in ORM
+[2020-06-01 18:07:21,525] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.status_task 2020-06-01 12:35:16.393266+00:00 [scheduled]> in ORM
+[2020-06-01 18:07:21,601] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.547 seconds
+[2020-06-01 18:08:50,458] {scheduler_job.py:153} INFO - Started process (PID=1091) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:08:50,465] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:08:50,465] {logging_mixin.py:112} INFO - [2020-06-01 18:08:50,465] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:08:50,714] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:08:50,868] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:08:50,886] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 09:52:59.612161+00:00: manual__2020-06-01T09:52:59.612161+00:00, externally triggered: True>
+[2020-06-01 18:08:50,901] {logging_mixin.py:112} INFO - [2020-06-01 18:08:50,901] {dagrun.py:318} INFO - Marking run <DagRun hello @ 2020-06-01 09:52:59.612161+00:00: manual__2020-06-01T09:52:59.612161+00:00, externally triggered: True> successful
+[2020-06-01 18:08:51,051] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 12:12:57.192601+00:00: manual__2020-06-01T12:12:57.192601+00:00, externally triggered: True>
+[2020-06-01 18:08:51,082] {logging_mixin.py:112} INFO - [2020-06-01 18:08:51,081] {dagrun.py:318} INFO - Marking run <DagRun hello @ 2020-06-01 12:12:57.192601+00:00: manual__2020-06-01T12:12:57.192601+00:00, externally triggered: True> successful
+[2020-06-01 18:08:51,231] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 12:35:16.393266+00:00: manual__2020-06-01T12:35:16.393266+00:00, externally triggered: True>
+[2020-06-01 18:08:51,265] {logging_mixin.py:112} INFO - [2020-06-01 18:08:51,264] {dagrun.py:318} INFO - Marking run <DagRun hello @ 2020-06-01 12:35:16.393266+00:00: manual__2020-06-01T12:35:16.393266+00:00, externally triggered: True> successful
+[2020-06-01 18:08:51,473] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:08:51,493] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 1.035 seconds
+[2020-06-01 18:09:40,862] {scheduler_job.py:153} INFO - Started process (PID=1120) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:09:40,868] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:09:40,868] {logging_mixin.py:112} INFO - [2020-06-01 18:09:40,868] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:09:41,110] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:09:41,263] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:09:41,277] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:09:41,281] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.418 seconds
+[2020-06-01 18:10:30,887] {scheduler_job.py:153} INFO - Started process (PID=1153) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:10:30,892] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:10:30,893] {logging_mixin.py:112} INFO - [2020-06-01 18:10:30,893] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:10:31,132] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:10:31,263] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:10:31,276] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:10:31,280] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.393 seconds
+[2020-06-01 18:11:20,907] {scheduler_job.py:153} INFO - Started process (PID=1182) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:11:20,912] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:11:20,912] {logging_mixin.py:112} INFO - [2020-06-01 18:11:20,912] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:11:21,156] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:11:21,263] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:11:21,277] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:11:21,280] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.374 seconds
+[2020-06-01 18:12:11,015] {scheduler_job.py:153} INFO - Started process (PID=1215) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:12:11,027] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:12:11,028] {logging_mixin.py:112} INFO - [2020-06-01 18:12:11,027] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:12:11,462] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:12:11,596] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:12:11,616] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:12:11,621] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.607 seconds
+[2020-06-01 18:13:00,960] {scheduler_job.py:153} INFO - Started process (PID=1244) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:13:00,966] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:13:00,966] {logging_mixin.py:112} INFO - [2020-06-01 18:13:00,966] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:13:01,207] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:13:01,318] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:13:01,332] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:13:01,335] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.375 seconds
+[2020-06-01 18:13:50,983] {scheduler_job.py:153} INFO - Started process (PID=1277) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:13:50,990] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:13:50,990] {logging_mixin.py:112} INFO - [2020-06-01 18:13:50,990] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:13:51,234] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:13:51,373] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:13:51,386] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:13:51,389] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.407 seconds
+[2020-06-01 18:14:41,010] {scheduler_job.py:153} INFO - Started process (PID=1310) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:14:41,017] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:14:41,018] {logging_mixin.py:112} INFO - [2020-06-01 18:14:41,018] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:14:41,311] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:14:41,451] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:14:41,468] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:14:41,472] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.462 seconds
+[2020-06-01 18:15:31,034] {scheduler_job.py:153} INFO - Started process (PID=1339) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:15:31,041] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:15:31,043] {logging_mixin.py:112} INFO - [2020-06-01 18:15:31,042] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:15:31,305] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:15:31,462] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:15:31,476] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:15:31,479] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.445 seconds
+[2020-06-01 18:16:21,062] {scheduler_job.py:153} INFO - Started process (PID=1372) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:16:21,068] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:16:21,069] {logging_mixin.py:112} INFO - [2020-06-01 18:16:21,068] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:16:21,329] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:16:21,463] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:16:21,477] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:16:21,480] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.418 seconds
+[2020-06-01 18:17:11,136] {scheduler_job.py:153} INFO - Started process (PID=1401) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:17:11,141] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:17:11,142] {logging_mixin.py:112} INFO - [2020-06-01 18:17:11,142] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:17:11,390] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:17:11,506] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:17:11,520] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:17:11,523] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.388 seconds
+[2020-06-01 18:18:01,131] {scheduler_job.py:153} INFO - Started process (PID=1434) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:18:01,139] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:18:01,140] {logging_mixin.py:112} INFO - [2020-06-01 18:18:01,140] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:18:01,532] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:18:01,684] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:18:01,707] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:18:01,713] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.582 seconds
+[2020-06-01 18:18:51,172] {scheduler_job.py:153} INFO - Started process (PID=1464) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:18:51,177] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:18:51,178] {logging_mixin.py:112} INFO - [2020-06-01 18:18:51,178] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:18:51,422] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:18:51,559] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:18:51,573] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:18:51,576] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.404 seconds
+[2020-06-01 18:19:41,279] {scheduler_job.py:153} INFO - Started process (PID=1497) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:19:41,294] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:19:41,297] {logging_mixin.py:112} INFO - [2020-06-01 18:19:41,296] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:19:41,685] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:19:41,843] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:19:41,868] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:19:41,874] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.595 seconds
+[2020-06-01 18:20:31,410] {scheduler_job.py:153} INFO - Started process (PID=1526) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:20:31,419] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:20:31,420] {logging_mixin.py:112} INFO - [2020-06-01 18:20:31,420] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:20:31,885] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:20:32,082] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:20:32,105] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:20:32,109] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.699 seconds
+[2020-06-01 18:21:21,411] {scheduler_job.py:153} INFO - Started process (PID=1561) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:21:21,417] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:21:21,417] {logging_mixin.py:112} INFO - [2020-06-01 18:21:21,417] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:21:21,685] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:21:22,408] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 18:22:11,696] {scheduler_job.py:153} INFO - Started process (PID=1591) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:22:11,702] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:22:11,703] {logging_mixin.py:112} INFO - [2020-06-01 18:22:11,703] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:22:11,987] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:22:12,191] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:22:12,205] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:22:12,209] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.513 seconds
+[2020-06-01 18:23:01,672] {scheduler_job.py:153} INFO - Started process (PID=1624) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:23:01,679] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:23:01,679] {logging_mixin.py:112} INFO - [2020-06-01 18:23:01,679] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:23:01,980] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:23:02,194] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:23:02,210] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:23:02,214] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.541 seconds
+[2020-06-01 18:23:51,700] {scheduler_job.py:153} INFO - Started process (PID=1653) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:23:51,706] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:23:51,706] {logging_mixin.py:112} INFO - [2020-06-01 18:23:51,706] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:23:52,008] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:23:52,160] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:23:52,175] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:23:52,179] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.479 seconds
+[2020-06-01 18:24:41,720] {scheduler_job.py:153} INFO - Started process (PID=1686) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:24:41,725] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:24:41,726] {logging_mixin.py:112} INFO - [2020-06-01 18:24:41,726] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:24:42,049] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:24:42,259] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:24:42,274] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:24:42,277] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.558 seconds
+[2020-06-01 18:25:31,767] {scheduler_job.py:153} INFO - Started process (PID=1719) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:25:31,777] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:25:31,778] {logging_mixin.py:112} INFO - [2020-06-01 18:25:31,778] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:25:32,082] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:25:32,291] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:25:32,307] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:25:32,311] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.544 seconds
+[2020-06-01 18:26:21,780] {scheduler_job.py:153} INFO - Started process (PID=1758) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:26:21,785] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:26:21,786] {logging_mixin.py:112} INFO - [2020-06-01 18:26:21,786] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:26:22,074] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:26:22,270] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:26:22,286] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:26:22,290] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.510 seconds
+[2020-06-01 18:27:11,834] {scheduler_job.py:153} INFO - Started process (PID=1810) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:27:11,839] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:27:11,840] {logging_mixin.py:112} INFO - [2020-06-01 18:27:11,840] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:27:12,123] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:27:12,311] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:27:12,326] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:27:12,330] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.496 seconds
+[2020-06-01 18:28:01,979] {scheduler_job.py:153} INFO - Started process (PID=1839) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:28:01,984] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:28:01,985] {logging_mixin.py:112} INFO - [2020-06-01 18:28:01,985] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:28:02,263] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:28:02,406] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:28:02,422] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:28:02,425] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.447 seconds
+[2020-06-01 18:28:52,003] {scheduler_job.py:153} INFO - Started process (PID=1872) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:28:52,008] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:28:52,009] {logging_mixin.py:112} INFO - [2020-06-01 18:28:52,009] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:28:52,262] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:28:52,399] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:28:52,414] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:28:52,417] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.415 seconds
+[2020-06-01 18:29:42,107] {scheduler_job.py:153} INFO - Started process (PID=1901) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:29:42,115] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:29:42,116] {logging_mixin.py:112} INFO - [2020-06-01 18:29:42,116] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:29:42,457] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:29:42,615] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:29:42,631] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:29:42,635] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.529 seconds
+[2020-06-01 18:30:32,083] {scheduler_job.py:153} INFO - Started process (PID=1934) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:30:32,091] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:30:32,092] {logging_mixin.py:112} INFO - [2020-06-01 18:30:32,092] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:30:32,395] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:30:32,629] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:30:32,738] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:30:32,742] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.659 seconds
+[2020-06-01 18:31:22,120] {scheduler_job.py:153} INFO - Started process (PID=1963) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:31:22,127] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:31:22,128] {logging_mixin.py:112} INFO - [2020-06-01 18:31:22,128] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:31:22,421] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:31:22,621] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:31:22,637] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:31:22,642] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.522 seconds
+[2020-06-01 18:32:12,193] {scheduler_job.py:153} INFO - Started process (PID=1996) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:32:12,201] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:32:12,202] {logging_mixin.py:112} INFO - [2020-06-01 18:32:12,202] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:32:12,510] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:32:12,739] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:32:12,755] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:32:12,759] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.566 seconds
+[2020-06-01 18:33:02,166] {scheduler_job.py:153} INFO - Started process (PID=2025) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:33:02,174] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:33:02,175] {logging_mixin.py:112} INFO - [2020-06-01 18:33:02,174] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:33:02,481] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:33:02,710] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:33:02,724] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:33:02,728] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.562 seconds
+[2020-06-01 18:33:52,202] {scheduler_job.py:153} INFO - Started process (PID=2058) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:33:52,210] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:33:52,211] {logging_mixin.py:112} INFO - [2020-06-01 18:33:52,211] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:33:52,629] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:33:52,899] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:33:52,920] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:33:52,924] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.722 seconds
+[2020-06-01 18:34:42,222] {scheduler_job.py:153} INFO - Started process (PID=2087) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:34:42,228] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:34:42,228] {logging_mixin.py:112} INFO - [2020-06-01 18:34:42,228] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:34:42,524] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:34:42,781] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:34:42,799] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:34:42,803] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.581 seconds
+[2020-06-01 18:35:32,289] {scheduler_job.py:153} INFO - Started process (PID=2120) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:35:32,299] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:35:32,300] {logging_mixin.py:112} INFO - [2020-06-01 18:35:32,300] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:35:32,792] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:35:33,065] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:35:33,099] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:35:33,104] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.815 seconds
+[2020-06-01 18:36:22,305] {scheduler_job.py:153} INFO - Started process (PID=2153) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:36:22,312] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:36:22,313] {logging_mixin.py:112} INFO - [2020-06-01 18:36:22,313] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:36:22,692] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:36:22,911] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:36:22,926] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:36:22,931] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.627 seconds
+[2020-06-01 18:37:12,349] {scheduler_job.py:153} INFO - Started process (PID=2182) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:37:12,357] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:37:12,357] {logging_mixin.py:112} INFO - [2020-06-01 18:37:12,357] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:37:12,634] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:37:12,796] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:37:12,812] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:37:12,816] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.467 seconds
+[2020-06-01 18:38:02,353] {scheduler_job.py:153} INFO - Started process (PID=2215) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:38:02,358] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:38:02,359] {logging_mixin.py:112} INFO - [2020-06-01 18:38:02,359] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:38:02,661] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:38:03,042] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:38:03,059] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:38:03,063] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.711 seconds
+[2020-06-01 18:38:52,389] {scheduler_job.py:153} INFO - Started process (PID=2244) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:38:52,395] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:38:52,396] {logging_mixin.py:112} INFO - [2020-06-01 18:38:52,396] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:38:52,687] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:38:53,234] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:38:53,249] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:38:53,253] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.863 seconds
+[2020-06-01 18:39:42,424] {scheduler_job.py:153} INFO - Started process (PID=2277) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:39:42,432] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:39:42,433] {logging_mixin.py:112} INFO - [2020-06-01 18:39:42,433] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:39:42,792] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:39:42,936] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:39:42,952] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:39:42,956] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.532 seconds
+[2020-06-01 18:40:32,457] {scheduler_job.py:153} INFO - Started process (PID=2306) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:40:32,465] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:40:32,466] {logging_mixin.py:112} INFO - [2020-06-01 18:40:32,466] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:40:32,734] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:40:32,861] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:40:32,876] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:40:32,880] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.424 seconds
+[2020-06-01 18:41:22,473] {scheduler_job.py:153} INFO - Started process (PID=2339) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:41:22,478] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:41:22,479] {logging_mixin.py:112} INFO - [2020-06-01 18:41:22,479] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:41:22,735] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:41:22,863] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:41:22,877] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:41:22,880] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.408 seconds
+[2020-06-01 18:42:12,535] {scheduler_job.py:153} INFO - Started process (PID=2368) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:42:12,540] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:42:12,542] {logging_mixin.py:112} INFO - [2020-06-01 18:42:12,541] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:42:12,810] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:42:13,202] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:42:13,215] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:42:13,219] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.685 seconds
+[2020-06-01 18:43:02,534] {scheduler_job.py:153} INFO - Started process (PID=2401) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:43:02,540] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:43:02,540] {logging_mixin.py:112} INFO - [2020-06-01 18:43:02,540] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:43:02,796] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:43:03,215] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:43:03,231] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:43:03,234] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.700 seconds
+[2020-06-01 18:43:52,567] {scheduler_job.py:153} INFO - Started process (PID=2430) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:43:52,573] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:43:52,573] {logging_mixin.py:112} INFO - [2020-06-01 18:43:52,573] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:43:52,842] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:43:53,127] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:43:53,144] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:43:53,148] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.582 seconds
+[2020-06-01 18:44:42,712] {scheduler_job.py:153} INFO - Started process (PID=2463) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:44:42,718] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:44:42,719] {logging_mixin.py:112} INFO - [2020-06-01 18:44:42,719] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:44:42,982] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:44:43,509] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:44:43,524] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:44:43,528] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.816 seconds
+[2020-06-01 18:45:33,034] {scheduler_job.py:153} INFO - Started process (PID=2492) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:45:33,039] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:45:33,040] {logging_mixin.py:112} INFO - [2020-06-01 18:45:33,040] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:45:33,323] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:45:33,687] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:45:33,707] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:45:33,712] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.678 seconds
+[2020-06-01 18:46:23,064] {scheduler_job.py:153} INFO - Started process (PID=2525) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:46:23,069] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:46:23,070] {logging_mixin.py:112} INFO - [2020-06-01 18:46:23,070] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:46:23,334] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:46:23,828] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:46:23,842] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:46:23,846] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.782 seconds
+[2020-06-01 18:47:13,142] {scheduler_job.py:153} INFO - Started process (PID=2558) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:47:13,148] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:47:13,149] {logging_mixin.py:112} INFO - [2020-06-01 18:47:13,148] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:47:13,484] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:47:13,736] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:47:13,751] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:47:13,756] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.615 seconds
+[2020-06-01 18:48:03,116] {scheduler_job.py:153} INFO - Started process (PID=2587) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:48:03,123] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:48:03,124] {logging_mixin.py:112} INFO - [2020-06-01 18:48:03,124] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:48:03,384] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:48:03,603] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:48:03,619] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:48:03,622] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.506 seconds
+[2020-06-01 18:49:02,878] {scheduler_job.py:153} INFO - Started process (PID=2620) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:49:02,883] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:49:02,884] {logging_mixin.py:112} INFO - [2020-06-01 18:49:02,884] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:49:03,148] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:49:03,600] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 18:49:52,919] {scheduler_job.py:153} INFO - Started process (PID=2649) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:49:52,924] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:49:52,925] {logging_mixin.py:112} INFO - [2020-06-01 18:49:52,925] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:49:53,209] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:49:53,525] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:49:53,540] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:49:53,544] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.626 seconds
+[2020-06-01 18:50:42,963] {scheduler_job.py:153} INFO - Started process (PID=2682) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:50:42,970] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:50:42,971] {logging_mixin.py:112} INFO - [2020-06-01 18:50:42,971] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:50:43,239] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:50:43,896] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:50:43,910] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:50:43,914] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.951 seconds
+[2020-06-01 18:51:38,724] {scheduler_job.py:153} INFO - Started process (PID=2715) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:51:38,729] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:51:38,730] {logging_mixin.py:112} INFO - [2020-06-01 18:51:38,730] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:51:38,997] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:51:39,503] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 18:52:29,231] {scheduler_job.py:153} INFO - Started process (PID=2744) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:52:29,237] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:52:29,237] {logging_mixin.py:112} INFO - [2020-06-01 18:52:29,237] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:52:29,505] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:52:30,281] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:52:30,296] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:52:30,300] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 1.069 seconds
+[2020-06-01 18:53:19,880] {scheduler_job.py:153} INFO - Started process (PID=2777) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:53:19,888] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:53:19,888] {logging_mixin.py:112} INFO - [2020-06-01 18:53:19,888] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:53:20,157] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:53:20,842] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:53:20,857] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:53:20,860] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.980 seconds
+[2020-06-01 18:54:09,897] {scheduler_job.py:153} INFO - Started process (PID=2806) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:54:09,902] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:54:09,903] {logging_mixin.py:112} INFO - [2020-06-01 18:54:09,903] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:54:10,167] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:54:11,047] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:54:11,061] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:54:11,065] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 1.168 seconds
+[2020-06-01 18:54:59,941] {scheduler_job.py:153} INFO - Started process (PID=2839) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:54:59,947] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:54:59,948] {logging_mixin.py:112} INFO - [2020-06-01 18:54:59,948] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:55:00,217] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:55:00,631] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:55:00,646] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:55:00,650] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.708 seconds
+[2020-06-01 18:55:49,954] {scheduler_job.py:153} INFO - Started process (PID=2868) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:55:49,960] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:55:49,960] {logging_mixin.py:112} INFO - [2020-06-01 18:55:49,960] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:55:50,251] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:55:52,983] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:55:53,099] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:55:53,105] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 3.151 seconds
+[2020-06-01 18:56:41,035] {scheduler_job.py:153} INFO - Started process (PID=2901) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:56:41,041] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:56:41,041] {logging_mixin.py:112} INFO - [2020-06-01 18:56:41,041] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:56:41,299] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:56:41,576] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 18:57:40,980] {scheduler_job.py:153} INFO - Started process (PID=2934) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:57:40,985] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:57:40,986] {logging_mixin.py:112} INFO - [2020-06-01 18:57:40,986] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:57:41,242] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:57:41,733] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:57:41,747] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:57:41,751] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.771 seconds
+[2020-06-01 18:58:31,006] {scheduler_job.py:153} INFO - Started process (PID=2963) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:58:31,012] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:58:31,013] {logging_mixin.py:112} INFO - [2020-06-01 18:58:31,013] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:58:31,272] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:58:31,476] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:58:31,490] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:58:31,494] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.488 seconds
+[2020-06-01 18:59:21,036] {scheduler_job.py:153} INFO - Started process (PID=2996) to work on /mnt/c/dag/hello.py
+[2020-06-01 18:59:21,044] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 18:59:21,045] {logging_mixin.py:112} INFO - [2020-06-01 18:59:21,045] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 18:59:24,895] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 18:59:25,445] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 18:59:25,463] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 18:59:25,467] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 4.431 seconds
+[2020-06-01 19:00:11,066] {scheduler_job.py:153} INFO - Started process (PID=3025) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:00:11,072] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:00:11,072] {logging_mixin.py:112} INFO - [2020-06-01 19:00:11,072] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:00:11,325] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:00:11,476] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:00:11,490] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:00:11,494] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.428 seconds
+[2020-06-01 19:01:01,110] {scheduler_job.py:153} INFO - Started process (PID=3054) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:01:01,115] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:01:01,116] {logging_mixin.py:112} INFO - [2020-06-01 19:01:01,116] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:01:01,365] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:01:01,532] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:01:01,546] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:01:01,550] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.440 seconds
+[2020-06-01 19:01:51,130] {scheduler_job.py:153} INFO - Started process (PID=3087) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:01:51,135] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:01:51,136] {logging_mixin.py:112} INFO - [2020-06-01 19:01:51,136] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:01:51,396] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:01:51,553] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:01:51,567] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:01:51,571] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.441 seconds
+[2020-06-01 19:02:41,154] {scheduler_job.py:153} INFO - Started process (PID=3120) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:02:41,159] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:02:41,160] {logging_mixin.py:112} INFO - [2020-06-01 19:02:41,160] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:02:41,409] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:02:41,648] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:02:41,665] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:02:41,669] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.515 seconds
+[2020-06-01 19:03:31,183] {scheduler_job.py:153} INFO - Started process (PID=3149) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:03:31,189] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:03:31,189] {logging_mixin.py:112} INFO - [2020-06-01 19:03:31,189] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:03:31,442] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:03:31,599] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:03:31,614] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:03:31,618] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.435 seconds
+[2020-06-01 19:04:21,211] {scheduler_job.py:153} INFO - Started process (PID=3182) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:04:21,217] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:04:21,218] {logging_mixin.py:112} INFO - [2020-06-01 19:04:21,217] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:04:21,474] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:04:21,597] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:04:21,611] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:04:21,615] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.404 seconds
+[2020-06-01 19:05:11,241] {scheduler_job.py:153} INFO - Started process (PID=3211) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:05:11,247] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:05:11,248] {logging_mixin.py:112} INFO - [2020-06-01 19:05:11,248] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:05:11,504] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:05:11,653] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:05:11,667] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:05:11,671] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.430 seconds
+[2020-06-01 19:06:01,282] {scheduler_job.py:153} INFO - Started process (PID=3244) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:06:01,288] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:06:01,288] {logging_mixin.py:112} INFO - [2020-06-01 19:06:01,288] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:06:01,537] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:06:01,665] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:06:01,679] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:06:01,683] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.401 seconds
+[2020-06-01 19:06:51,298] {scheduler_job.py:153} INFO - Started process (PID=3273) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:06:51,304] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:06:51,304] {logging_mixin.py:112} INFO - [2020-06-01 19:06:51,304] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:06:51,562] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:06:51,695] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:06:51,710] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:06:51,714] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.416 seconds
+[2020-06-01 19:07:41,324] {scheduler_job.py:153} INFO - Started process (PID=3306) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:07:41,330] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:07:41,330] {logging_mixin.py:112} INFO - [2020-06-01 19:07:41,330] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:07:41,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:07:41,720] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:07:41,734] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:07:41,738] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.414 seconds
+[2020-06-01 19:50:56,242] {scheduler_job.py:153} INFO - Started process (PID=3355) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:50:56,250] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:50:56,250] {logging_mixin.py:112} INFO - [2020-06-01 19:50:56,250] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:50:56,596] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:50:59,522] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:50:59,739] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:50:59,744] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 3.502 seconds
+[2020-06-01 19:51:45,342] {scheduler_job.py:153} INFO - Started process (PID=3380) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:51:45,350] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:51:45,350] {logging_mixin.py:112} INFO - [2020-06-01 19:51:45,350] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:51:45,671] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:51:46,886] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:51:46,901] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:51:46,905] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 1.563 seconds
+[2020-06-01 19:52:35,367] {scheduler_job.py:153} INFO - Started process (PID=3405) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:52:35,373] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:52:35,374] {logging_mixin.py:112} INFO - [2020-06-01 19:52:35,373] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:52:35,635] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:52:35,899] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:52:35,914] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:52:35,918] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.551 seconds
+[2020-06-01 19:53:25,397] {scheduler_job.py:153} INFO - Started process (PID=3430) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:53:25,402] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:53:25,403] {logging_mixin.py:112} INFO - [2020-06-01 19:53:25,403] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:53:25,652] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:53:25,888] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:53:25,902] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:53:25,906] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.509 seconds
+[2020-06-01 19:54:15,441] {scheduler_job.py:153} INFO - Started process (PID=3455) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:54:15,446] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:54:15,447] {logging_mixin.py:112} INFO - [2020-06-01 19:54:15,447] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:54:15,712] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:54:15,888] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:54:15,902] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:54:15,907] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.466 seconds
+[2020-06-01 19:55:05,455] {scheduler_job.py:153} INFO - Started process (PID=3480) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:55:05,461] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:55:05,462] {logging_mixin.py:112} INFO - [2020-06-01 19:55:05,461] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:55:05,718] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:55:05,965] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:55:05,979] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:55:05,983] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.528 seconds
+[2020-06-01 19:55:55,497] {scheduler_job.py:153} INFO - Started process (PID=3506) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:55:55,503] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:55:55,504] {logging_mixin.py:112} INFO - [2020-06-01 19:55:55,504] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:55:55,777] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:55:55,934] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:55:55,950] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:55:55,954] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.457 seconds
+[2020-06-01 19:56:45,532] {scheduler_job.py:153} INFO - Started process (PID=3531) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:56:45,538] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:56:45,538] {logging_mixin.py:112} INFO - [2020-06-01 19:56:45,538] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:56:45,847] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:56:46,011] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:56:46,029] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:56:46,033] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.501 seconds
+[2020-06-01 19:57:35,578] {scheduler_job.py:153} INFO - Started process (PID=3556) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:57:35,586] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:57:35,588] {logging_mixin.py:112} INFO - [2020-06-01 19:57:35,588] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:57:35,910] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:57:36,066] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:57:36,090] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:57:36,096] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.518 seconds
+[2020-06-01 19:58:25,616] {scheduler_job.py:153} INFO - Started process (PID=3581) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:58:25,624] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:58:25,625] {logging_mixin.py:112} INFO - [2020-06-01 19:58:25,625] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:58:25,893] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:58:26,132] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:58:26,147] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:58:26,151] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.535 seconds
+[2020-06-01 19:59:15,632] {scheduler_job.py:153} INFO - Started process (PID=3606) to work on /mnt/c/dag/hello.py
+[2020-06-01 19:59:15,638] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 19:59:15,639] {logging_mixin.py:112} INFO - [2020-06-01 19:59:15,638] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 19:59:15,908] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 19:59:16,041] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 19:59:16,055] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 19:59:16,059] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.427 seconds
+[2020-06-01 20:00:05,684] {scheduler_job.py:153} INFO - Started process (PID=3631) to work on /mnt/c/dag/hello.py
+[2020-06-01 20:00:05,689] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 20:00:05,690] {logging_mixin.py:112} INFO - [2020-06-01 20:00:05,690] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 20:00:06,286] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/dag/hello.py
+[2020-06-01 20:00:06,451] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:00:06,466] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:00:06,469] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.786 seconds
+[2020-06-01 20:00:55,689] {scheduler_job.py:153} INFO - Started process (PID=3656) to work on /mnt/c/dag/hello.py
+[2020-06-01 20:00:55,696] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/hello.py for tasks to queue
+[2020-06-01 20:00:55,697] {logging_mixin.py:112} INFO - [2020-06-01 20:00:55,697] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/hello.py
+[2020-06-01 20:00:55,698] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /mnt/c/dag/hello.py
+[2020-06-01 20:00:55,699] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/hello.py took 0.011 seconds
+[2020-06-01 20:14:27,673] {scheduler_job.py:153} INFO - Started process (PID=3778) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:14:27,732] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:14:27,733] {logging_mixin.py:112} INFO - [2020-06-01 20:14:27,732] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:14:28,076] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:14:28,345] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:14:28,362] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:14:28,367] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.695 seconds
+[2020-06-01 20:15:17,705] {scheduler_job.py:153} INFO - Started process (PID=3807) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:15:17,710] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:15:17,711] {logging_mixin.py:112} INFO - [2020-06-01 20:15:17,710] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:15:17,984] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:15:18,240] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:15:18,255] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 14:44:42.696601+00:00: manual__2020-06-01T14:44:42.696601+00:00, externally triggered: True>
+[2020-06-01 20:15:18,276] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:15:18,279] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.get_covid_data_task 2020-06-01 14:44:42.696601+00:00 [scheduled]> in ORM
+[2020-06-01 20:15:18,509] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.805 seconds
+[2020-06-01 20:16:20,569] {scheduler_job.py:153} INFO - Started process (PID=3846) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:16:20,576] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:16:20,576] {logging_mixin.py:112} INFO - [2020-06-01 20:16:20,576] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:16:20,844] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:16:20,979] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:16:20,993] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 14:44:42.696601+00:00: manual__2020-06-01T14:44:42.696601+00:00, externally triggered: True>
+[2020-06-01 20:16:21,012] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:16:21,016] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: hello.status_task 2020-06-01 14:44:42.696601+00:00 [scheduled]> in ORM
+[2020-06-01 20:16:21,126] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.557 seconds
+[2020-06-01 20:17:23,775] {scheduler_job.py:153} INFO - Started process (PID=3910) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:17:23,781] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:17:23,782] {logging_mixin.py:112} INFO - [2020-06-01 20:17:23,782] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:17:24,037] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:17:24,196] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:17:24,212] {scheduler_job.py:759} INFO - Examining DAG run <DagRun hello @ 2020-06-01 14:44:42.696601+00:00: manual__2020-06-01T14:44:42.696601+00:00, externally triggered: True>
+[2020-06-01 20:17:24,221] {logging_mixin.py:112} INFO - [2020-06-01 20:17:24,221] {dagrun.py:318} INFO - Marking run <DagRun hello @ 2020-06-01 14:44:42.696601+00:00: manual__2020-06-01T14:44:42.696601+00:00, externally triggered: True> successful
+[2020-06-01 20:17:24,321] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:17:24,357] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.582 seconds
+[2020-06-01 20:18:13,842] {scheduler_job.py:153} INFO - Started process (PID=3943) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:18:13,851] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:18:13,852] {logging_mixin.py:112} INFO - [2020-06-01 20:18:13,852] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:18:14,144] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:18:14,260] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:18:14,274] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:18:14,278] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.437 seconds
+[2020-06-01 20:19:03,850] {scheduler_job.py:153} INFO - Started process (PID=3972) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:19:03,857] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:19:03,857] {logging_mixin.py:112} INFO - [2020-06-01 20:19:03,857] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:19:04,130] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:19:04,390] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:19:04,405] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:19:04,409] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.559 seconds
+[2020-06-01 20:19:53,888] {scheduler_job.py:153} INFO - Started process (PID=4005) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:19:53,893] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:19:53,894] {logging_mixin.py:112} INFO - [2020-06-01 20:19:53,894] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:19:54,168] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:19:54,342] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:19:54,358] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:19:54,361] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.474 seconds
+[2020-06-01 20:20:43,884] {scheduler_job.py:153} INFO - Started process (PID=4034) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:20:43,890] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:20:43,890] {logging_mixin.py:112} INFO - [2020-06-01 20:20:43,890] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:20:44,233] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:20:44,399] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:20:44,429] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:20:44,435] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.550 seconds
+[2020-06-01 20:21:33,908] {scheduler_job.py:153} INFO - Started process (PID=4067) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:21:33,914] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:21:33,914] {logging_mixin.py:112} INFO - [2020-06-01 20:21:33,914] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:21:34,168] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:21:34,309] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:21:34,324] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:21:34,328] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.421 seconds
+[2020-06-01 20:22:24,194] {scheduler_job.py:153} INFO - Started process (PID=4097) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:22:24,199] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:22:24,200] {logging_mixin.py:112} INFO - [2020-06-01 20:22:24,200] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:22:31,480] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:22:31,657] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:22:31,674] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:22:31,678] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 7.484 seconds
+[2020-06-01 20:23:13,955] {scheduler_job.py:153} INFO - Started process (PID=4125) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:23:13,960] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:23:13,961] {logging_mixin.py:112} INFO - [2020-06-01 20:23:13,961] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:23:14,232] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:23:14,397] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:23:14,412] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:23:14,415] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.461 seconds
+[2020-06-01 20:24:03,978] {scheduler_job.py:153} INFO - Started process (PID=4158) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:24:03,985] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:24:03,985] {logging_mixin.py:112} INFO - [2020-06-01 20:24:03,985] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:24:04,290] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:24:04,442] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:24:04,458] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:24:04,462] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.485 seconds
+[2020-06-01 20:24:54,000] {scheduler_job.py:153} INFO - Started process (PID=4191) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:24:54,006] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:24:54,007] {logging_mixin.py:112} INFO - [2020-06-01 20:24:54,006] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:24:54,324] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:24:54,486] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:24:54,501] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:24:54,505] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.504 seconds
+[2020-06-01 20:25:44,025] {scheduler_job.py:153} INFO - Started process (PID=4220) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:25:44,030] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:25:44,031] {logging_mixin.py:112} INFO - [2020-06-01 20:25:44,030] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:25:44,323] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:25:44,514] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:25:44,532] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:25:44,538] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.514 seconds
+[2020-06-01 20:26:34,046] {scheduler_job.py:153} INFO - Started process (PID=4253) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:26:34,053] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:26:34,053] {logging_mixin.py:112} INFO - [2020-06-01 20:26:34,053] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:26:34,411] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:26:34,719] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:26:34,734] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:26:34,738] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.692 seconds
+[2020-06-01 20:27:24,084] {scheduler_job.py:153} INFO - Started process (PID=4282) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:27:24,091] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:27:24,091] {logging_mixin.py:112} INFO - [2020-06-01 20:27:24,091] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:27:24,378] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:27:24,536] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:27:24,554] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:27:24,557] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.474 seconds
+[2020-06-01 20:28:14,101] {scheduler_job.py:153} INFO - Started process (PID=4315) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:28:14,107] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:28:14,108] {logging_mixin.py:112} INFO - [2020-06-01 20:28:14,108] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:28:14,359] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:28:14,505] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:28:14,523] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:28:14,527] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.425 seconds
+[2020-06-01 20:29:04,220] {scheduler_job.py:153} INFO - Started process (PID=4344) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:29:04,228] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:29:04,229] {logging_mixin.py:112} INFO - [2020-06-01 20:29:04,229] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:29:04,514] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:29:04,659] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:29:04,672] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:29:04,676] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.459 seconds
+[2020-06-01 20:29:54,185] {scheduler_job.py:153} INFO - Started process (PID=4377) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:29:54,191] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:29:54,192] {logging_mixin.py:112} INFO - [2020-06-01 20:29:54,192] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:29:54,434] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:29:54,604] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:29:54,618] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:29:54,622] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.437 seconds
+[2020-06-01 20:30:44,202] {scheduler_job.py:153} INFO - Started process (PID=4406) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:30:44,207] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:30:44,208] {logging_mixin.py:112} INFO - [2020-06-01 20:30:44,208] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:30:44,447] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:30:44,583] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:30:44,596] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:30:44,600] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.398 seconds
+[2020-06-01 20:31:34,227] {scheduler_job.py:153} INFO - Started process (PID=4439) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:31:34,232] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:31:34,233] {logging_mixin.py:112} INFO - [2020-06-01 20:31:34,233] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:31:34,480] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:31:34,648] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:31:34,664] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:31:34,668] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.441 seconds
+[2020-06-01 20:32:24,293] {scheduler_job.py:153} INFO - Started process (PID=4472) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:32:24,298] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:32:24,298] {logging_mixin.py:112} INFO - [2020-06-01 20:32:24,298] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:32:24,539] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:32:24,658] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:32:24,672] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:32:24,675] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.383 seconds
+[2020-06-01 20:33:14,273] {scheduler_job.py:153} INFO - Started process (PID=4501) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:33:14,279] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:33:14,279] {logging_mixin.py:112} INFO - [2020-06-01 20:33:14,279] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:33:14,525] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:33:14,667] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:33:14,681] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:33:14,684] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.411 seconds
+[2020-06-01 20:34:04,298] {scheduler_job.py:153} INFO - Started process (PID=4534) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:34:04,303] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:34:04,304] {logging_mixin.py:112} INFO - [2020-06-01 20:34:04,303] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:34:04,544] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:34:04,671] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:34:04,685] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:34:04,689] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.391 seconds
+[2020-06-01 20:34:55,287] {scheduler_job.py:153} INFO - Started process (PID=4563) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:34:55,292] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:34:55,294] {logging_mixin.py:112} INFO - [2020-06-01 20:34:55,293] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:34:55,535] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:34:55,736] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:34:55,749] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:34:55,752] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.466 seconds
+[2020-06-01 20:35:45,309] {scheduler_job.py:153} INFO - Started process (PID=4596) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:35:45,315] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:35:45,316] {logging_mixin.py:112} INFO - [2020-06-01 20:35:45,316] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:35:45,553] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:35:45,703] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:35:45,716] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:35:45,719] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.411 seconds
+[2020-06-01 20:36:35,792] {scheduler_job.py:153} INFO - Started process (PID=4629) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:36:35,797] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:36:35,798] {logging_mixin.py:112} INFO - [2020-06-01 20:36:35,798] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:36:36,034] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:36:36,180] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:36:36,194] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:36:36,198] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.406 seconds
+[2020-06-01 20:37:25,812] {scheduler_job.py:153} INFO - Started process (PID=4658) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:37:25,817] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:37:25,818] {logging_mixin.py:112} INFO - [2020-06-01 20:37:25,818] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:37:26,060] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:37:26,191] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:37:26,205] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:37:26,208] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.396 seconds
+[2020-06-01 20:38:15,887] {scheduler_job.py:153} INFO - Started process (PID=4691) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:38:15,892] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:38:15,893] {logging_mixin.py:112} INFO - [2020-06-01 20:38:15,893] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:38:16,131] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:38:16,335] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:38:16,348] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:38:16,352] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.465 seconds
+[2020-06-01 20:39:05,857] {scheduler_job.py:153} INFO - Started process (PID=4720) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:39:05,862] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:39:05,863] {logging_mixin.py:112} INFO - [2020-06-01 20:39:05,863] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:39:06,104] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:39:06,226] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:39:06,240] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:39:06,244] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.387 seconds
+[2020-06-01 20:39:56,138] {scheduler_job.py:153} INFO - Started process (PID=4753) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:39:56,143] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:39:56,143] {logging_mixin.py:112} INFO - [2020-06-01 20:39:56,143] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:39:56,394] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:39:56,591] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:39:56,605] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:39:56,609] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.472 seconds
+[2020-06-01 20:40:46,159] {scheduler_job.py:153} INFO - Started process (PID=4782) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:40:46,164] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:40:46,166] {logging_mixin.py:112} INFO - [2020-06-01 20:40:46,165] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:40:46,438] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:40:46,817] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:40:46,833] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:40:46,837] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.679 seconds
+[2020-06-01 20:41:36,187] {scheduler_job.py:153} INFO - Started process (PID=4811) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:41:36,194] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:41:36,195] {logging_mixin.py:112} INFO - [2020-06-01 20:41:36,194] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:41:36,458] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:41:36,780] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:41:36,796] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:41:36,801] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.614 seconds
+[2020-06-01 20:42:26,209] {scheduler_job.py:153} INFO - Started process (PID=4844) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:42:26,216] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:42:26,217] {logging_mixin.py:112} INFO - [2020-06-01 20:42:26,217] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:42:26,494] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:42:26,710] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:42:26,725] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:42:26,729] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.520 seconds
+[2020-06-01 20:43:16,231] {scheduler_job.py:153} INFO - Started process (PID=4873) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:43:16,237] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:43:16,237] {logging_mixin.py:112} INFO - [2020-06-01 20:43:16,237] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:43:16,645] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:43:16,805] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:43:16,829] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:43:16,835] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.604 seconds
+[2020-06-01 20:44:07,232] {scheduler_job.py:153} INFO - Started process (PID=4906) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:44:07,238] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:44:07,238] {logging_mixin.py:112} INFO - [2020-06-01 20:44:07,238] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:44:07,519] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:44:07,795] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:44:07,810] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:44:07,815] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.583 seconds
+[2020-06-01 20:44:57,259] {scheduler_job.py:153} INFO - Started process (PID=4935) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:44:57,264] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:44:57,265] {logging_mixin.py:112} INFO - [2020-06-01 20:44:57,264] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:44:57,542] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:44:57,790] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:44:57,804] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:44:57,807] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.549 seconds
+[2020-06-01 20:45:47,381] {scheduler_job.py:153} INFO - Started process (PID=4968) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:45:47,388] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:45:47,389] {logging_mixin.py:112} INFO - [2020-06-01 20:45:47,389] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:45:47,720] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:45:47,984] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:45:48,006] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:45:48,012] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.631 seconds
+[2020-06-01 20:46:37,416] {scheduler_job.py:153} INFO - Started process (PID=4997) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:46:37,422] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:46:37,423] {logging_mixin.py:112} INFO - [2020-06-01 20:46:37,423] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:46:37,708] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:46:37,952] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:46:37,971] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:46:37,976] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.561 seconds
+[2020-06-01 20:47:27,448] {scheduler_job.py:153} INFO - Started process (PID=5030) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:47:27,455] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:47:27,455] {logging_mixin.py:112} INFO - [2020-06-01 20:47:27,455] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:47:28,945] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:47:29,131] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:47:29,206] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:47:29,211] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 1.763 seconds
+[2020-06-01 20:48:17,476] {scheduler_job.py:153} INFO - Started process (PID=5059) to work on /mnt/c/covid/dag/hello.py
+[2020-06-01 20:48:17,483] {scheduler_job.py:1562} INFO - Processing file /mnt/c/covid/dag/hello.py for tasks to queue
+[2020-06-01 20:48:17,484] {logging_mixin.py:112} INFO - [2020-06-01 20:48:17,484] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:48:17,867] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['hello']) retrieved from /mnt/c/covid/dag/hello.py
+[2020-06-01 20:48:18,143] {scheduler_job.py:1284} INFO - Processing hello
+[2020-06-01 20:48:18,161] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: hello> because no tasks in DAG have SLAs
+[2020-06-01 20:48:18,166] {scheduler_job.py:161} INFO - Processing /mnt/c/covid/dag/hello.py took 0.690 seconds

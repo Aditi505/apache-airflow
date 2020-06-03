@@ -1,0 +1,70 @@
+[2020-06-01 14:50:53,615] {scheduler_job.py:153} INFO - Started process (PID=447) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:50:53,620] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:50:53,620] {logging_mixin.py:112} INFO - [2020-06-01 14:50:53,620] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:50:53,624] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:50:53,635] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.021 seconds
+[2020-06-01 14:52:53,324] {scheduler_job.py:153} INFO - Started process (PID=515) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:52:53,330] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:52:53,331] {logging_mixin.py:112} INFO - [2020-06-01 14:52:53,330] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:52:53,334] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:52:53,346] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.022 seconds
+[2020-06-01 14:53:41,429] {scheduler_job.py:153} INFO - Started process (PID=578) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:53:41,434] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:53:41,435] {logging_mixin.py:112} INFO - [2020-06-01 14:53:41,435] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:53:41,438] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:53:41,465] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.036 seconds
+[2020-06-01 14:54:29,483] {scheduler_job.py:153} INFO - Started process (PID=610) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:54:29,488] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:54:29,489] {logging_mixin.py:112} INFO - [2020-06-01 14:54:29,489] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:54:29,492] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:54:29,503] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.020 seconds
+[2020-06-01 14:55:17,526] {scheduler_job.py:153} INFO - Started process (PID=638) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:55:17,531] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:55:17,532] {logging_mixin.py:112} INFO - [2020-06-01 14:55:17,531] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:55:17,535] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:55:17,547] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.021 seconds
+[2020-06-01 14:56:05,573] {scheduler_job.py:153} INFO - Started process (PID=670) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:56:05,578] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:56:05,579] {logging_mixin.py:112} INFO - [2020-06-01 14:56:05,579] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:56:05,582] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:56:05,594] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.021 seconds
+[2020-06-01 14:57:24,213] {scheduler_job.py:153} INFO - Started process (PID=734) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:57:24,218] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:57:24,219] {logging_mixin.py:112} INFO - [2020-06-01 14:57:24,219] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:57:24,222] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:57:24,232] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.019 seconds
+[2020-06-01 14:58:13,060] {scheduler_job.py:153} INFO - Started process (PID=766) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:58:13,066] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:58:13,067] {logging_mixin.py:112} INFO - [2020-06-01 14:58:13,066] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:58:13,069] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:58:13,081] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.021 seconds
+[2020-06-01 14:59:01,120] {scheduler_job.py:153} INFO - Started process (PID=794) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:59:01,127] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:59:01,128] {logging_mixin.py:112} INFO - [2020-06-01 14:59:01,128] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:59:01,132] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:59:01,160] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.041 seconds
+[2020-06-01 14:59:49,162] {scheduler_job.py:153} INFO - Started process (PID=826) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:59:49,167] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 14:59:49,168] {logging_mixin.py:112} INFO - [2020-06-01 14:59:49,168] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:59:49,171] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 14:59:49,184] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.022 seconds
+[2020-06-01 15:00:37,234] {scheduler_job.py:153} INFO - Started process (PID=854) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:00:37,239] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 15:00:37,240] {logging_mixin.py:112} INFO - [2020-06-01 15:00:37,240] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:00:37,243] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:00:37,257] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.023 seconds
+[2020-06-01 15:01:25,295] {scheduler_job.py:153} INFO - Started process (PID=886) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:01:25,301] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 15:01:25,303] {logging_mixin.py:112} INFO - [2020-06-01 15:01:25,302] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:01:25,306] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:01:25,316] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.021 seconds
+[2020-06-01 15:02:13,347] {scheduler_job.py:153} INFO - Started process (PID=914) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:02:13,353] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 15:02:13,354] {logging_mixin.py:112} INFO - [2020-06-01 15:02:13,354] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:02:13,357] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:02:13,369] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.021 seconds
+[2020-06-01 15:03:01,398] {scheduler_job.py:153} INFO - Started process (PID=946) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:03:01,403] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py for tasks to queue
+[2020-06-01 15:03:01,404] {logging_mixin.py:112} INFO - [2020-06-01 15:03:01,404] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:03:01,407] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py
+[2020-06-01 15:03:01,420] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/docker_copy_data.py took 0.022 seconds

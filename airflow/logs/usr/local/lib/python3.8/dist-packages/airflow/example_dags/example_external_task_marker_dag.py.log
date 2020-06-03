@@ -1,0 +1,230 @@
+[2020-06-01 14:51:17,661] {scheduler_job.py:153} INFO - Started process (PID=459) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:51:17,667] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:51:17,668] {logging_mixin.py:112} INFO - [2020-06-01 14:51:17,668] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:51:17,694] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:51:18,189] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.528 seconds
+[2020-06-01 14:53:17,375] {scheduler_job.py:153} INFO - Started process (PID=545) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:53:17,381] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:53:17,382] {logging_mixin.py:112} INFO - [2020-06-01 14:53:17,382] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:53:17,393] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:53:17,704] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.329 seconds
+[2020-06-01 14:54:05,457] {scheduler_job.py:153} INFO - Started process (PID=594) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:54:05,462] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:54:05,463] {logging_mixin.py:112} INFO - [2020-06-01 14:54:05,463] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:54:05,473] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:54:05,629] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 14:54:53,503] {scheduler_job.py:153} INFO - Started process (PID=622) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:54:53,508] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:54:53,509] {logging_mixin.py:112} INFO - [2020-06-01 14:54:53,508] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:54:53,519] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:54:53,729] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 14:55:41,555] {scheduler_job.py:153} INFO - Started process (PID=654) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:55:41,560] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:55:41,561] {logging_mixin.py:112} INFO - [2020-06-01 14:55:41,561] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:55:41,571] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:55:41,751] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 14:56:29,600] {scheduler_job.py:153} INFO - Started process (PID=686) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:56:29,606] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:56:29,607] {logging_mixin.py:112} INFO - [2020-06-01 14:56:29,607] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:56:29,618] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:56:29,772] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-01 14:57:16,192] {scheduler_job.py:153} INFO - Started process (PID=730) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:57:16,197] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:57:16,197] {logging_mixin.py:112} INFO - [2020-06-01 14:57:16,197] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:57:16,207] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:57:16,512] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.321 seconds
+[2020-06-01 14:58:05,054] {scheduler_job.py:153} INFO - Started process (PID=758) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:58:05,060] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:58:05,061] {logging_mixin.py:112} INFO - [2020-06-01 14:58:05,060] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:58:05,071] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:58:05,534] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.480 seconds
+[2020-06-01 14:58:53,120] {scheduler_job.py:153} INFO - Started process (PID=790) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:58:53,126] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:58:53,126] {logging_mixin.py:112} INFO - [2020-06-01 14:58:53,126] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:58:53,137] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:58:53,380] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.260 seconds
+[2020-06-01 14:59:41,151] {scheduler_job.py:153} INFO - Started process (PID=818) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:59:41,156] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 14:59:41,157] {logging_mixin.py:112} INFO - [2020-06-01 14:59:41,157] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:59:41,169] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 14:59:41,436] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.285 seconds
+[2020-06-01 15:00:29,234] {scheduler_job.py:153} INFO - Started process (PID=850) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:00:29,240] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 15:00:29,241] {logging_mixin.py:112} INFO - [2020-06-01 15:00:29,241] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:00:29,254] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:00:29,543] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.309 seconds
+[2020-06-01 15:01:17,277] {scheduler_job.py:153} INFO - Started process (PID=878) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:01:17,283] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 15:01:17,284] {logging_mixin.py:112} INFO - [2020-06-01 15:01:17,284] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:01:17,295] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:01:17,559] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.282 seconds
+[2020-06-01 15:02:05,338] {scheduler_job.py:153} INFO - Started process (PID=910) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:02:05,346] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 15:02:05,346] {logging_mixin.py:112} INFO - [2020-06-01 15:02:05,346] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:02:05,356] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:02:05,590] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.251 seconds
+[2020-06-01 15:02:53,407] {scheduler_job.py:153} INFO - Started process (PID=942) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:02:53,413] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2020-06-01 15:02:53,414] {logging_mixin.py:112} INFO - [2020-06-01 15:02:53,413] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:02:53,428] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2020-06-01 15:02:53,725] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.318 seconds

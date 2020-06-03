@@ -1,0 +1,65 @@
+[2020-06-01 14:53:13,363] {scheduler_job.py:153} INFO - Started process (PID=541) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:53:13,369] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:53:13,369] {logging_mixin.py:112} INFO - [2020-06-01 14:53:13,369] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:53:13,382] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:53:13,534] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.171 seconds
+[2020-06-01 14:54:01,482] {scheduler_job.py:153} INFO - Started process (PID=592) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:54:01,489] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:54:01,489] {logging_mixin.py:112} INFO - [2020-06-01 14:54:01,489] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:54:01,500] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:54:01,621] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.139 seconds
+[2020-06-01 14:54:49,499] {scheduler_job.py:153} INFO - Started process (PID=620) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:54:49,504] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:54:49,505] {logging_mixin.py:112} INFO - [2020-06-01 14:54:49,505] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:54:49,514] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:54:49,660] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.162 seconds
+[2020-06-01 14:55:37,575] {scheduler_job.py:153} INFO - Started process (PID=652) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:55:37,586] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:55:37,587] {logging_mixin.py:112} INFO - [2020-06-01 14:55:37,587] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:55:37,603] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:55:37,737] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.161 seconds
+[2020-06-01 14:56:25,619] {scheduler_job.py:153} INFO - Started process (PID=680) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:56:25,624] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:56:25,624] {logging_mixin.py:112} INFO - [2020-06-01 14:56:25,624] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:56:25,635] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:56:25,782] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.163 seconds
+[2020-06-01 14:57:34,205] {scheduler_job.py:153} INFO - Started process (PID=739) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:57:34,210] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:57:34,211] {logging_mixin.py:112} INFO - [2020-06-01 14:57:34,211] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:57:34,223] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:57:34,396] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.192 seconds
+[2020-06-01 14:58:23,069] {scheduler_job.py:153} INFO - Started process (PID=771) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:58:23,074] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:58:23,075] {logging_mixin.py:112} INFO - [2020-06-01 14:58:23,075] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:58:23,085] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:58:23,227] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.158 seconds
+[2020-06-01 14:59:11,124] {scheduler_job.py:153} INFO - Started process (PID=799) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:59:11,129] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:59:11,130] {logging_mixin.py:112} INFO - [2020-06-01 14:59:11,130] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:59:11,142] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:59:11,351] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.227 seconds
+[2020-06-01 14:59:59,172] {scheduler_job.py:153} INFO - Started process (PID=831) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:59:59,178] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 14:59:59,179] {logging_mixin.py:112} INFO - [2020-06-01 14:59:59,179] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:59:59,191] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 14:59:59,329] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.157 seconds
+[2020-06-01 15:00:47,249] {scheduler_job.py:153} INFO - Started process (PID=863) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:00:47,256] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 15:00:47,258] {logging_mixin.py:112} INFO - [2020-06-01 15:00:47,257] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:00:47,270] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:00:47,466] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.217 seconds
+[2020-06-01 15:01:35,324] {scheduler_job.py:153} INFO - Started process (PID=891) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:01:35,330] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 15:01:35,330] {logging_mixin.py:112} INFO - [2020-06-01 15:01:35,330] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:01:35,341] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:01:35,528] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.204 seconds
+[2020-06-01 15:02:23,356] {scheduler_job.py:153} INFO - Started process (PID=923) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:02:23,362] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 15:02:23,363] {logging_mixin.py:112} INFO - [2020-06-01 15:02:23,362] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:02:23,372] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:02:23,494] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.137 seconds
+[2020-06-01 15:03:11,409] {scheduler_job.py:153} INFO - Started process (PID=951) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:03:11,415] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2020-06-01 15:03:11,416] {logging_mixin.py:112} INFO - [2020-06-01 15:03:11,416] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:03:11,432] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py
+[2020-06-01 15:03:11,606] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_python_operator.py took 0.197 seconds

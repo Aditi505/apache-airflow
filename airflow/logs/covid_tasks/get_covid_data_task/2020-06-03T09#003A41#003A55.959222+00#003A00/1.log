@@ -1,0 +1,13 @@
+[2020-06-03 15:12:48,749] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_tasks.get_covid_data_task 2020-06-03T09:41:55.959222+00:00 [queued]>
+[2020-06-03 15:12:48,757] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_tasks.get_covid_data_task 2020-06-03T09:41:55.959222+00:00 [queued]>
+[2020-06-03 15:12:48,757] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-03 15:12:48,757] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-03 15:12:48,757] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-03 15:12:48,892] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): get_covid_data_task> on 2020-06-03T09:41:55.959222+00:00
+[2020-06-03 15:12:48,933] {standard_task_runner.py:53} INFO - Started process 814 to run task
+[2020-06-03 15:12:49,277] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: covid_tasks.get_covid_data_task 2020-06-03T09:41:55.959222+00:00 [running]> LAPTOP-P8ICNHVB.localdomain
+[2020-06-03 15:12:50,855] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-06-03 15:12:50,858] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=covid_tasks, task_id=get_covid_data_task, execution_date=20200603T094155, start_date=20200603T094248, end_date=20200603T094250
+[2020-06-03 15:12:58,708] {logging_mixin.py:112} INFO - [2020-06-03 15:12:58,707] {local_task_job.py:103} INFO - Task exited with return code 0

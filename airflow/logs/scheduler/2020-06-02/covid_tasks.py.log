@@ -1,0 +1,1694 @@
+[2020-06-02 15:16:20,344] {scheduler_job.py:153} INFO - Started process (PID=260) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:16:20,349] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:16:20,350] {logging_mixin.py:112} INFO - [2020-06-02 15:16:20,350] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:16:20,369] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:16:20,674] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:16:20,689] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:16:20,823] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:16:20,847] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:16:20,850] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02 09:45:52.553360+00:00 [scheduled]> in ORM
+[2020-06-02 15:16:20,853] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02 09:46:10.823072+00:00 [scheduled]> in ORM
+[2020-06-02 15:16:20,952] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.609 seconds
+[2020-06-02 15:17:34,907] {scheduler_job.py:153} INFO - Started process (PID=299) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:17:34,912] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:17:34,913] {logging_mixin.py:112} INFO - [2020-06-02 15:17:34,913] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:17:35,060] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:17:35,170] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:17:35,182] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:17:35,190] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:17:35,213] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:17:35,215] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.308 seconds
+[2020-06-02 15:18:24,902] {scheduler_job.py:153} INFO - Started process (PID=325) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:18:24,907] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:18:24,908] {logging_mixin.py:112} INFO - [2020-06-02 15:18:24,908] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:18:25,056] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:18:25,181] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:18:25,194] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:18:25,201] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:18:25,226] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:18:25,228] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.326 seconds
+[2020-06-02 15:19:14,918] {scheduler_job.py:153} INFO - Started process (PID=377) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:19:14,924] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:19:14,924] {logging_mixin.py:112} INFO - [2020-06-02 15:19:14,924] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:19:15,071] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:19:15,201] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:19:15,212] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:19:15,219] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:19:15,241] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:19:15,244] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.325 seconds
+[2020-06-02 15:20:04,950] {scheduler_job.py:153} INFO - Started process (PID=416) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:20:04,958] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:20:04,958] {logging_mixin.py:112} INFO - [2020-06-02 15:20:04,958] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:20:05,132] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:20:05,324] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:20:05,337] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:20:05,345] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:20:05,375] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:20:05,378] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.427 seconds
+[2020-06-02 15:20:54,963] {scheduler_job.py:153} INFO - Started process (PID=442) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:20:54,969] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:20:54,969] {logging_mixin.py:112} INFO - [2020-06-02 15:20:54,969] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:20:54,983] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:20:55,112] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:20:55,125] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:20:55,134] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:20:55,157] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:20:55,159] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.196 seconds
+[2020-06-02 15:21:44,998] {scheduler_job.py:153} INFO - Started process (PID=469) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:21:45,009] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:21:45,010] {logging_mixin.py:112} INFO - [2020-06-02 15:21:45,009] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:21:45,029] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:21:45,169] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:21:45,183] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:21:45,193] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:21:45,216] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:21:45,219] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02 09:45:52.553360+00:00 [scheduled]> in ORM
+[2020-06-02 15:21:45,222] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02 09:46:10.823072+00:00 [scheduled]> in ORM
+[2020-06-02 15:21:45,327] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.330 seconds
+[2020-06-02 15:22:59,526] {scheduler_job.py:153} INFO - Started process (PID=508) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:22:59,532] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:22:59,532] {logging_mixin.py:112} INFO - [2020-06-02 15:22:59,532] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:22:59,546] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:22:59,713] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:23:49,563] {scheduler_job.py:153} INFO - Started process (PID=535) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:23:49,568] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:23:49,569] {logging_mixin.py:112} INFO - [2020-06-02 15:23:49,569] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:23:49,582] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:23:49,695] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:23:49,711] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:23:49,854] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:23:50,290] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:23:50,304] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.741 seconds
+[2020-06-02 15:24:39,589] {scheduler_job.py:153} INFO - Started process (PID=561) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:24:39,594] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:24:39,595] {logging_mixin.py:112} INFO - [2020-06-02 15:24:39,595] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:24:39,612] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:24:39,745] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:24:39,758] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True>
+[2020-06-02 15:24:39,767] {logging_mixin.py:112} INFO - [2020-06-02 15:24:39,767] {dagrun.py:309} INFO - Marking run <DagRun covid_tasks @ 2020-06-02 09:45:52.553360+00:00: manual__2020-06-02T09:45:52.553360+00:00, externally triggered: True> failed
+[2020-06-02 15:24:39,834] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True>
+[2020-06-02 15:24:39,853] {logging_mixin.py:112} INFO - [2020-06-02 15:24:39,853] {dagrun.py:309} INFO - Marking run <DagRun covid_tasks @ 2020-06-02 09:46:10.823072+00:00: manual__2020-06-02T09:46:10.823072+00:00, externally triggered: True> failed
+[2020-06-02 15:24:39,924] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:24:39,938] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.350 seconds
+[2020-06-02 15:26:18,226] {scheduler_job.py:153} INFO - Started process (PID=619) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:26:18,231] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:26:18,231] {logging_mixin.py:112} INFO - [2020-06-02 15:26:18,231] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:26:18,246] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:26:18,488] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:26:18,504] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:26:18,523] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:26:18,526] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02 09:56:02.150180+00:00 [scheduled]> in ORM
+[2020-06-02 15:26:18,647] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.422 seconds
+[2020-06-02 15:27:20,475] {scheduler_job.py:153} INFO - Started process (PID=650) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:27:20,481] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:27:20,482] {logging_mixin.py:112} INFO - [2020-06-02 15:27:20,482] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:27:20,644] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:27:20,756] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:27:20,769] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:27:20,787] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:27:20,789] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.314 seconds
+[2020-06-02 15:28:10,506] {scheduler_job.py:153} INFO - Started process (PID=675) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:28:10,511] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:28:10,511] {logging_mixin.py:112} INFO - [2020-06-02 15:28:10,511] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:28:10,656] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:28:10,754] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:28:10,765] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:28:10,781] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:28:10,783] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.277 seconds
+[2020-06-02 15:29:00,518] {scheduler_job.py:153} INFO - Started process (PID=700) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:29:00,523] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:29:00,524] {logging_mixin.py:112} INFO - [2020-06-02 15:29:00,524] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:29:00,673] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:29:00,790] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:29:00,802] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:29:00,818] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:29:00,820] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.302 seconds
+[2020-06-02 15:29:50,542] {scheduler_job.py:153} INFO - Started process (PID=725) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:29:50,547] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:29:50,548] {logging_mixin.py:112} INFO - [2020-06-02 15:29:50,548] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:29:50,702] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:29:50,907] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:29:50,919] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:29:50,935] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:29:50,937] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.395 seconds
+[2020-06-02 15:30:40,584] {scheduler_job.py:153} INFO - Started process (PID=750) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:30:40,589] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:30:40,590] {logging_mixin.py:112} INFO - [2020-06-02 15:30:40,590] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:30:40,604] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:30:40,741] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:30:40,754] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:30:40,772] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:30:40,774] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.190 seconds
+[2020-06-02 15:31:30,621] {scheduler_job.py:153} INFO - Started process (PID=775) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:31:30,626] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:31:30,626] {logging_mixin.py:112} INFO - [2020-06-02 15:31:30,626] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:31:30,640] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:31:30,751] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:31:30,764] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:31:30,782] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:31:30,785] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02 09:56:02.150180+00:00 [scheduled]> in ORM
+[2020-06-02 15:31:30,888] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.267 seconds
+[2020-06-02 15:32:32,317] {scheduler_job.py:153} INFO - Started process (PID=806) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:32:32,323] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:32:32,323] {logging_mixin.py:112} INFO - [2020-06-02 15:32:32,323] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:32:32,337] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:32:32,486] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:33:22,365] {scheduler_job.py:153} INFO - Started process (PID=831) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:33:22,371] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:33:22,371] {logging_mixin.py:112} INFO - [2020-06-02 15:33:22,371] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:33:22,384] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:33:22,495] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:33:22,508] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:33:22,755] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:33:22,771] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.406 seconds
+[2020-06-02 15:34:12,363] {scheduler_job.py:153} INFO - Started process (PID=856) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:34:12,368] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:34:12,369] {logging_mixin.py:112} INFO - [2020-06-02 15:34:12,369] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:34:12,382] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:34:12,533] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:34:12,545] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True>
+[2020-06-02 15:34:12,554] {logging_mixin.py:112} INFO - [2020-06-02 15:34:12,554] {dagrun.py:309} INFO - Marking run <DagRun covid_tasks @ 2020-06-02 09:56:02.150180+00:00: manual__2020-06-02T09:56:02.150180+00:00, externally triggered: True> failed
+[2020-06-02 15:34:12,641] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:34:12,658] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.294 seconds
+[2020-06-02 15:35:02,389] {scheduler_job.py:153} INFO - Started process (PID=881) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:35:02,395] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:35:02,395] {logging_mixin.py:112} INFO - [2020-06-02 15:35:02,395] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:35:02,410] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:35:02,596] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:35:52,411] {scheduler_job.py:153} INFO - Started process (PID=925) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:35:52,416] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:35:52,417] {logging_mixin.py:112} INFO - [2020-06-02 15:35:52,417] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:35:52,431] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:35:52,576] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:35:52,592] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:35:52,596] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.186 seconds
+[2020-06-02 15:36:42,436] {scheduler_job.py:153} INFO - Started process (PID=951) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:36:42,441] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:36:42,442] {logging_mixin.py:112} INFO - [2020-06-02 15:36:42,442] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:36:42,457] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:36:42,576] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:36:42,590] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:36:42,594] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.158 seconds
+[2020-06-02 15:37:32,467] {scheduler_job.py:153} INFO - Started process (PID=976) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:37:32,472] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:37:32,472] {logging_mixin.py:112} INFO - [2020-06-02 15:37:32,472] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:37:32,486] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:37:32,672] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:38:22,482] {scheduler_job.py:153} INFO - Started process (PID=1011) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:38:22,488] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:38:22,489] {logging_mixin.py:112} INFO - [2020-06-02 15:38:22,489] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:38:22,502] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:38:22,674] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:38:22,689] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:38:22,693] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.211 seconds
+[2020-06-02 15:39:12,507] {scheduler_job.py:153} INFO - Started process (PID=1037) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:39:12,513] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:39:12,514] {logging_mixin.py:112} INFO - [2020-06-02 15:39:12,513] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:39:12,528] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:39:12,655] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:39:12,669] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:39:12,674] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.167 seconds
+[2020-06-02 15:40:02,528] {scheduler_job.py:153} INFO - Started process (PID=1062) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:40:02,533] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:40:02,534] {logging_mixin.py:112} INFO - [2020-06-02 15:40:02,534] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:40:02,549] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:40:02,705] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:40:52,556] {scheduler_job.py:153} INFO - Started process (PID=1087) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:40:52,562] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:40:52,562] {logging_mixin.py:112} INFO - [2020-06-02 15:40:52,562] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:40:52,590] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:40:52,774] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:40:52,787] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:40:52,792] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.236 seconds
+[2020-06-02 15:42:52,346] {scheduler_job.py:153} INFO - Started process (PID=1162) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:42:52,352] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:42:52,352] {logging_mixin.py:112} INFO - [2020-06-02 15:42:52,352] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:42:52,367] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:42:52,640] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:42:52,657] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:42:52,660] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.314 seconds
+[2020-06-02 15:43:42,371] {scheduler_job.py:153} INFO - Started process (PID=1187) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:43:42,378] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:43:42,379] {logging_mixin.py:112} INFO - [2020-06-02 15:43:42,379] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:43:42,395] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:43:42,725] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:44:32,403] {scheduler_job.py:153} INFO - Started process (PID=1212) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:44:32,408] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:44:32,409] {logging_mixin.py:112} INFO - [2020-06-02 15:44:32,409] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:44:32,560] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:44:32,667] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:44:32,679] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 10:13:42.277208+00:00: manual__2020-06-02T10:13:42.277208+00:00, externally triggered: True>
+[2020-06-02 15:44:32,695] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:44:32,698] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.get_covid_data_task 2020-06-02 10:13:42.277208+00:00 [scheduled]> in ORM
+[2020-06-02 15:44:32,842] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.439 seconds
+[2020-06-02 15:45:34,183] {scheduler_job.py:153} INFO - Started process (PID=1243) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:45:34,189] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:45:34,189] {logging_mixin.py:112} INFO - [2020-06-02 15:45:34,189] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:45:34,336] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:45:34,446] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:45:34,460] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 10:13:42.277208+00:00: manual__2020-06-02T10:13:42.277208+00:00, externally triggered: True>
+[2020-06-02 15:45:34,480] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:45:34,484] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.upload_covid_data_task 2020-06-02 10:13:42.277208+00:00 [scheduled]> in ORM
+[2020-06-02 15:45:34,586] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.403 seconds
+[2020-06-02 15:46:41,526] {scheduler_job.py:153} INFO - Started process (PID=1274) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:46:41,532] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:46:41,532] {logging_mixin.py:112} INFO - [2020-06-02 15:46:41,532] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:46:41,681] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:46:41,800] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:46:41,812] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 10:13:42.277208+00:00: manual__2020-06-02T10:13:42.277208+00:00, externally triggered: True>
+[2020-06-02 15:46:41,828] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:46:41,831] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: covid_tasks.upload_status_task 2020-06-02 10:13:42.277208+00:00 [scheduled]> in ORM
+[2020-06-02 15:46:41,951] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.425 seconds
+[2020-06-02 15:47:43,393] {scheduler_job.py:153} INFO - Started process (PID=1305) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:47:43,398] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:47:43,398] {logging_mixin.py:112} INFO - [2020-06-02 15:47:43,398] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:47:43,415] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:47:43,590] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:48:33,428] {scheduler_job.py:153} INFO - Started process (PID=1330) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:48:33,433] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:48:33,434] {logging_mixin.py:112} INFO - [2020-06-02 15:48:33,434] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:48:33,448] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:48:33,604] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:48:33,617] {scheduler_job.py:759} INFO - Examining DAG run <DagRun covid_tasks @ 2020-06-02 10:13:42.277208+00:00: manual__2020-06-02T10:13:42.277208+00:00, externally triggered: True>
+[2020-06-02 15:48:33,625] {logging_mixin.py:112} INFO - [2020-06-02 15:48:33,625] {dagrun.py:318} INFO - Marking run <DagRun covid_tasks @ 2020-06-02 10:13:42.277208+00:00: manual__2020-06-02T10:13:42.277208+00:00, externally triggered: True> successful
+[2020-06-02 15:48:33,712] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:48:33,728] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.300 seconds
+[2020-06-02 15:49:23,441] {scheduler_job.py:153} INFO - Started process (PID=1355) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:49:23,446] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:49:23,447] {logging_mixin.py:112} INFO - [2020-06-02 15:49:23,447] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:49:23,461] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:49:23,602] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:49:23,615] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:49:23,619] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.178 seconds
+[2020-06-02 15:50:13,465] {scheduler_job.py:153} INFO - Started process (PID=1380) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:50:13,471] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:50:13,472] {logging_mixin.py:112} INFO - [2020-06-02 15:50:13,472] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:50:13,488] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:50:13,654] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:51:03,513] {scheduler_job.py:153} INFO - Started process (PID=1405) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:51:03,519] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:51:03,520] {logging_mixin.py:112} INFO - [2020-06-02 15:51:03,520] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:51:03,533] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:51:03,712] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:51:03,725] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:51:03,729] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.216 seconds
+[2020-06-02 15:51:53,537] {scheduler_job.py:153} INFO - Started process (PID=1430) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:51:53,543] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:51:53,543] {logging_mixin.py:112} INFO - [2020-06-02 15:51:53,543] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:51:53,557] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:51:53,690] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:51:53,703] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:51:53,707] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.170 seconds
+[2020-06-02 15:52:43,560] {scheduler_job.py:153} INFO - Started process (PID=1455) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:52:43,565] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:52:43,566] {logging_mixin.py:112} INFO - [2020-06-02 15:52:43,566] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:52:43,580] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:52:43,754] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:53:33,610] {scheduler_job.py:153} INFO - Started process (PID=1480) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:53:33,615] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:53:33,615] {logging_mixin.py:112} INFO - [2020-06-02 15:53:33,615] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:53:33,629] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:53:33,778] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:53:33,792] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:53:33,795] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.186 seconds
+[2020-06-02 15:54:23,607] {scheduler_job.py:153} INFO - Started process (PID=1505) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:54:23,612] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:54:23,613] {logging_mixin.py:112} INFO - [2020-06-02 15:54:23,613] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:54:23,627] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:54:23,767] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:54:23,780] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:54:23,783] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.177 seconds
+[2020-06-02 15:55:13,632] {scheduler_job.py:153} INFO - Started process (PID=1530) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:55:13,637] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:55:13,638] {logging_mixin.py:112} INFO - [2020-06-02 15:55:13,637] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:55:13,652] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:55:13,876] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:56:03,655] {scheduler_job.py:153} INFO - Started process (PID=1555) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:56:03,660] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:56:03,661] {logging_mixin.py:112} INFO - [2020-06-02 15:56:03,661] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:56:03,675] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:56:03,833] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:56:03,846] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:56:03,850] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.195 seconds
+[2020-06-02 15:56:53,683] {scheduler_job.py:153} INFO - Started process (PID=1580) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:56:53,690] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:56:53,691] {logging_mixin.py:112} INFO - [2020-06-02 15:56:53,691] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:56:53,705] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:56:53,844] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:56:53,857] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:56:53,860] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.177 seconds
+[2020-06-02 15:57:43,704] {scheduler_job.py:153} INFO - Started process (PID=1605) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:57:43,709] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:57:43,710] {logging_mixin.py:112} INFO - [2020-06-02 15:57:43,710] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:57:43,724] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:57:43,908] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 15:58:33,750] {scheduler_job.py:153} INFO - Started process (PID=1630) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:58:33,755] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:58:33,756] {logging_mixin.py:112} INFO - [2020-06-02 15:58:33,756] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:58:33,770] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:58:33,977] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:58:33,990] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:58:33,994] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.244 seconds
+[2020-06-02 15:59:23,750] {scheduler_job.py:153} INFO - Started process (PID=1655) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:59:23,756] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 15:59:23,756] {logging_mixin.py:112} INFO - [2020-06-02 15:59:23,756] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:59:23,770] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 15:59:23,896] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 15:59:23,909] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 15:59:23,913] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.163 seconds
+[2020-06-02 16:00:13,874] {scheduler_job.py:153} INFO - Started process (PID=1680) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:00:13,879] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:00:13,880] {logging_mixin.py:112} INFO - [2020-06-02 16:00:13,880] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:00:13,894] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:00:14,062] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:01:03,898] {scheduler_job.py:153} INFO - Started process (PID=1705) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:01:03,904] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:01:03,905] {logging_mixin.py:112} INFO - [2020-06-02 16:01:03,904] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:01:03,919] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:01:04,052] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:01:04,065] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:01:04,069] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.170 seconds
+[2020-06-02 16:01:53,923] {scheduler_job.py:153} INFO - Started process (PID=1730) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:01:53,930] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:01:53,930] {logging_mixin.py:112} INFO - [2020-06-02 16:01:53,930] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:01:53,943] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:01:54,120] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:01:54,133] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:01:54,137] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.214 seconds
+[2020-06-02 16:02:43,959] {scheduler_job.py:153} INFO - Started process (PID=1755) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:02:43,964] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:02:43,965] {logging_mixin.py:112} INFO - [2020-06-02 16:02:43,964] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:02:43,978] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:02:44,139] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:03:33,972] {scheduler_job.py:153} INFO - Started process (PID=1780) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:03:33,977] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:03:33,978] {logging_mixin.py:112} INFO - [2020-06-02 16:03:33,978] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:03:33,993] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:03:34,174] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:03:34,187] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:03:34,190] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.218 seconds
+[2020-06-02 16:04:23,995] {scheduler_job.py:153} INFO - Started process (PID=1805) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:04:24,000] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:04:24,001] {logging_mixin.py:112} INFO - [2020-06-02 16:04:24,000] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:04:24,014] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:04:24,151] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:04:24,164] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:04:24,168] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.173 seconds
+[2020-06-02 16:05:14,017] {scheduler_job.py:153} INFO - Started process (PID=1830) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:05:14,022] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:05:14,023] {logging_mixin.py:112} INFO - [2020-06-02 16:05:14,023] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:05:14,037] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:05:14,226] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:06:04,045] {scheduler_job.py:153} INFO - Started process (PID=1855) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:06:04,051] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:06:04,052] {logging_mixin.py:112} INFO - [2020-06-02 16:06:04,051] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:06:04,066] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:06:04,258] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:06:04,271] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:06:04,275] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.230 seconds
+[2020-06-02 16:06:54,072] {scheduler_job.py:153} INFO - Started process (PID=1880) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:06:54,079] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:06:54,080] {logging_mixin.py:112} INFO - [2020-06-02 16:06:54,079] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:06:54,095] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:06:54,262] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:06:54,275] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:06:54,279] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.206 seconds
+[2020-06-02 16:07:44,106] {scheduler_job.py:153} INFO - Started process (PID=1905) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:07:44,113] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:07:44,113] {logging_mixin.py:112} INFO - [2020-06-02 16:07:44,113] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:07:44,126] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:07:44,280] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:08:34,121] {scheduler_job.py:153} INFO - Started process (PID=1930) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:08:34,127] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:08:34,127] {logging_mixin.py:112} INFO - [2020-06-02 16:08:34,127] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:08:34,140] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:08:34,302] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:08:34,315] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:08:34,318] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.197 seconds
+[2020-06-02 16:09:24,144] {scheduler_job.py:153} INFO - Started process (PID=1955) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:09:24,150] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:09:24,151] {logging_mixin.py:112} INFO - [2020-06-02 16:09:24,150] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:09:24,166] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:09:24,282] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:09:24,294] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:09:24,298] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.154 seconds
+[2020-06-02 16:10:14,180] {scheduler_job.py:153} INFO - Started process (PID=1980) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:10:14,186] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:10:14,187] {logging_mixin.py:112} INFO - [2020-06-02 16:10:14,187] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:10:14,202] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:10:14,378] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:11:04,238] {scheduler_job.py:153} INFO - Started process (PID=2005) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:11:04,250] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:11:04,251] {logging_mixin.py:112} INFO - [2020-06-02 16:11:04,250] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:11:04,278] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:11:04,440] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:11:04,471] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:11:04,477] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.240 seconds
+[2020-06-02 16:11:54,270] {scheduler_job.py:153} INFO - Started process (PID=2030) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:11:54,275] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:11:54,276] {logging_mixin.py:112} INFO - [2020-06-02 16:11:54,276] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:11:54,291] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:11:54,438] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:11:54,452] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:11:54,456] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.186 seconds
+[2020-06-02 16:12:44,296] {scheduler_job.py:153} INFO - Started process (PID=2055) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:12:44,302] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:12:44,303] {logging_mixin.py:112} INFO - [2020-06-02 16:12:44,303] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:12:44,318] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:12:44,478] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:13:34,327] {scheduler_job.py:153} INFO - Started process (PID=2080) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:13:34,334] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:13:34,334] {logging_mixin.py:112} INFO - [2020-06-02 16:13:34,334] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:13:34,348] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:13:34,514] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:13:34,527] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:13:34,531] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.205 seconds
+[2020-06-02 16:14:24,353] {scheduler_job.py:153} INFO - Started process (PID=2105) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:14:24,359] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:14:24,359] {logging_mixin.py:112} INFO - [2020-06-02 16:14:24,359] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:14:24,373] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:14:24,492] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:14:24,505] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:14:24,509] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.157 seconds
+[2020-06-02 16:15:14,382] {scheduler_job.py:153} INFO - Started process (PID=2130) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:15:14,387] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:15:14,388] {logging_mixin.py:112} INFO - [2020-06-02 16:15:14,388] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:15:14,403] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:15:14,577] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:16:04,444] {scheduler_job.py:153} INFO - Started process (PID=2155) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:16:04,449] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:16:04,450] {logging_mixin.py:112} INFO - [2020-06-02 16:16:04,450] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:16:04,465] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:16:04,591] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:16:04,605] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:16:04,609] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.165 seconds
+[2020-06-02 16:16:54,440] {scheduler_job.py:153} INFO - Started process (PID=2180) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:16:54,446] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:16:54,446] {logging_mixin.py:112} INFO - [2020-06-02 16:16:54,446] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:16:54,461] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:16:54,615] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:16:54,628] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:16:54,632] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.193 seconds
+[2020-06-02 16:17:44,467] {scheduler_job.py:153} INFO - Started process (PID=2205) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:17:44,472] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:17:44,473] {logging_mixin.py:112} INFO - [2020-06-02 16:17:44,473] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:17:44,488] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:17:44,624] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:17:44,637] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:17:44,641] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.175 seconds
+[2020-06-02 16:18:34,495] {scheduler_job.py:153} INFO - Started process (PID=2230) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:18:34,502] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:18:34,503] {logging_mixin.py:112} INFO - [2020-06-02 16:18:34,502] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:18:34,516] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:18:34,668] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:18:34,681] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:18:34,685] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.190 seconds
+[2020-06-02 16:19:24,523] {scheduler_job.py:153} INFO - Started process (PID=2255) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:19:24,530] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:19:24,531] {logging_mixin.py:112} INFO - [2020-06-02 16:19:24,531] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:19:24,544] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:19:24,689] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:19:24,703] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:19:24,706] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.183 seconds
+[2020-06-02 16:20:14,554] {scheduler_job.py:153} INFO - Started process (PID=2280) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:20:14,560] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:20:14,561] {logging_mixin.py:112} INFO - [2020-06-02 16:20:14,561] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:20:14,575] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:20:14,723] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:20:14,736] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:20:14,740] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.186 seconds
+[2020-06-02 16:21:04,613] {scheduler_job.py:153} INFO - Started process (PID=2305) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:21:04,618] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:21:04,619] {logging_mixin.py:112} INFO - [2020-06-02 16:21:04,619] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:21:04,633] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:21:04,789] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:21:04,803] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:21:04,807] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.194 seconds
+[2020-06-02 16:21:54,611] {scheduler_job.py:153} INFO - Started process (PID=2330) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:21:54,616] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:21:54,617] {logging_mixin.py:112} INFO - [2020-06-02 16:21:54,617] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:21:54,631] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:21:54,768] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:21:54,781] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:21:54,786] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.175 seconds
+[2020-06-02 16:22:44,638] {scheduler_job.py:153} INFO - Started process (PID=2355) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:22:44,644] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:22:44,645] {logging_mixin.py:112} INFO - [2020-06-02 16:22:44,645] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:22:44,661] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:22:44,845] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:22:44,858] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:22:44,862] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.224 seconds
+[2020-06-02 16:23:34,666] {scheduler_job.py:153} INFO - Started process (PID=2380) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:23:34,671] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:23:34,672] {logging_mixin.py:112} INFO - [2020-06-02 16:23:34,672] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:23:34,687] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:23:34,821] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:23:34,835] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:23:34,839] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.174 seconds
+[2020-06-02 16:24:24,693] {scheduler_job.py:153} INFO - Started process (PID=2405) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:24:24,700] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:24:24,701] {logging_mixin.py:112} INFO - [2020-06-02 16:24:24,701] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:24:24,715] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:24:24,842] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:24:24,855] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:24:24,859] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.166 seconds
+[2020-06-02 16:25:14,722] {scheduler_job.py:153} INFO - Started process (PID=2430) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:25:14,728] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:25:14,728] {logging_mixin.py:112} INFO - [2020-06-02 16:25:14,728] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:25:14,743] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:25:14,884] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:26:04,760] {scheduler_job.py:153} INFO - Started process (PID=2455) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:26:04,766] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:26:04,767] {logging_mixin.py:112} INFO - [2020-06-02 16:26:04,766] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:26:04,782] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:26:04,908] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:26:04,922] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:26:04,926] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.166 seconds
+[2020-06-02 16:26:54,780] {scheduler_job.py:153} INFO - Started process (PID=2480) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:26:54,785] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:26:54,786] {logging_mixin.py:112} INFO - [2020-06-02 16:26:54,786] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:26:54,800] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:26:54,955] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:26:54,968] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:26:54,973] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.193 seconds
+[2020-06-02 16:27:44,804] {scheduler_job.py:153} INFO - Started process (PID=2505) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:27:44,810] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:27:44,811] {logging_mixin.py:112} INFO - [2020-06-02 16:27:44,811] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:27:44,827] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:27:44,994] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:28:34,835] {scheduler_job.py:153} INFO - Started process (PID=2530) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:28:34,840] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:28:34,841] {logging_mixin.py:112} INFO - [2020-06-02 16:28:34,841] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:28:34,856] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:28:34,987] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:28:35,001] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:28:35,005] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.171 seconds
+[2020-06-02 16:29:24,861] {scheduler_job.py:153} INFO - Started process (PID=2555) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:29:24,867] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:29:24,867] {logging_mixin.py:112} INFO - [2020-06-02 16:29:24,867] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:29:24,882] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:29:25,010] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:29:25,024] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:29:25,028] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.167 seconds
+[2020-06-02 16:30:14,892] {scheduler_job.py:153} INFO - Started process (PID=2580) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:30:14,899] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:30:14,900] {logging_mixin.py:112} INFO - [2020-06-02 16:30:14,899] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:30:14,913] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:30:15,093] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:31:04,957] {scheduler_job.py:153} INFO - Started process (PID=2605) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:31:04,963] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:31:04,963] {logging_mixin.py:112} INFO - [2020-06-02 16:31:04,963] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:31:04,977] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:31:05,107] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:31:05,120] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:31:05,124] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.167 seconds
+[2020-06-02 16:31:54,945] {scheduler_job.py:153} INFO - Started process (PID=2630) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:31:54,950] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:31:54,951] {logging_mixin.py:112} INFO - [2020-06-02 16:31:54,951] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:31:54,966] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:31:55,134] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:31:55,147] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:31:55,151] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.207 seconds
+[2020-06-02 16:32:44,970] {scheduler_job.py:153} INFO - Started process (PID=2655) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:32:44,976] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:32:44,976] {logging_mixin.py:112} INFO - [2020-06-02 16:32:44,976] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:32:44,992] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:32:45,170] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:33:35,002] {scheduler_job.py:153} INFO - Started process (PID=2680) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:33:35,007] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:33:35,008] {logging_mixin.py:112} INFO - [2020-06-02 16:33:35,008] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:33:35,023] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:33:35,187] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:33:35,202] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:33:35,206] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.204 seconds
+[2020-06-02 16:34:25,032] {scheduler_job.py:153} INFO - Started process (PID=2705) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:34:25,037] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:34:25,038] {logging_mixin.py:112} INFO - [2020-06-02 16:34:25,038] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:34:25,052] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:34:25,195] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:34:25,209] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:34:25,213] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.181 seconds
+[2020-06-02 16:35:15,062] {scheduler_job.py:153} INFO - Started process (PID=2730) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:35:15,068] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:35:15,069] {logging_mixin.py:112} INFO - [2020-06-02 16:35:15,069] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:35:15,084] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:35:15,258] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:36:05,136] {scheduler_job.py:153} INFO - Started process (PID=2755) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:36:05,142] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:36:05,143] {logging_mixin.py:112} INFO - [2020-06-02 16:36:05,143] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:36:05,156] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:36:05,321] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:36:05,334] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:36:05,338] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.203 seconds
+[2020-06-02 16:36:55,124] {scheduler_job.py:153} INFO - Started process (PID=2780) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:36:55,129] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:36:55,130] {logging_mixin.py:112} INFO - [2020-06-02 16:36:55,130] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:36:55,144] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:36:55,315] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:36:55,328] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:36:55,332] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.209 seconds
+[2020-06-02 16:37:45,155] {scheduler_job.py:153} INFO - Started process (PID=2805) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:37:45,160] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:37:45,161] {logging_mixin.py:112} INFO - [2020-06-02 16:37:45,161] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:37:45,176] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:37:45,390] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:38:35,180] {scheduler_job.py:153} INFO - Started process (PID=2830) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:38:35,186] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:38:35,186] {logging_mixin.py:112} INFO - [2020-06-02 16:38:35,186] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:38:35,201] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:38:35,360] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:38:35,373] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:38:35,377] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.197 seconds
+[2020-06-02 16:39:25,204] {scheduler_job.py:153} INFO - Started process (PID=2855) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:39:25,210] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:39:25,211] {logging_mixin.py:112} INFO - [2020-06-02 16:39:25,210] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:39:25,225] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:39:25,362] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:39:25,375] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:39:25,379] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.175 seconds
+[2020-06-02 16:40:15,231] {scheduler_job.py:153} INFO - Started process (PID=2880) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:40:15,236] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:40:15,237] {logging_mixin.py:112} INFO - [2020-06-02 16:40:15,237] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:40:15,252] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:40:15,525] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:40:15,538] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:40:15,542] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.312 seconds
+[2020-06-02 16:41:05,298] {scheduler_job.py:153} INFO - Started process (PID=2905) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:41:05,305] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:41:05,305] {logging_mixin.py:112} INFO - [2020-06-02 16:41:05,305] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:41:05,318] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:41:05,437] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:41:05,451] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:41:05,455] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.157 seconds
+[2020-06-02 16:44:24,374] {scheduler_job.py:153} INFO - Started process (PID=2930) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:44:24,383] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:44:24,384] {logging_mixin.py:112} INFO - [2020-06-02 16:44:24,384] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:44:24,403] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:44:30,258] {scheduler_job.py:166} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlite3.OperationalError: disk I/O error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 156, in _run_file_processor
+    result = scheduler_job.process_file(file_path,
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/jobs/scheduler_job.py", line 1582, in process_file
+    dag.sync_to_db()
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/db.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dag.py", line 1521, in sync_to_db
+    session.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 1042, in commit
+    self.transaction.commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/orm/session.py", line 508, in commit
+    t[1].commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1771, in commit
+    self._do_commit()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1802, in _do_commit
+    self.connection._commit_impl()
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 776, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 1517, in _handle_dbapi_exception
+    util.raise_(
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/base.py", line 774, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "/usr/local/lib/python3.8/dist-packages/sqlalchemy/engine/default.py", line 543, in do_commit
+    dbapi_connection.commit()
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) disk I/O error
+(Background on this error at: http://sqlalche.me/e/e3q8)
+[2020-06-02 16:45:19,844] {scheduler_job.py:153} INFO - Started process (PID=2959) to work on /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:45:19,850] {scheduler_job.py:1562} INFO - Processing file /mnt/c/dag/covid_tasks.py for tasks to queue
+[2020-06-02 16:45:19,850] {logging_mixin.py:112} INFO - [2020-06-02 16:45:19,850] {dagbag.py:396} INFO - Filling up the DagBag from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:45:19,865] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['covid_tasks']) retrieved from /mnt/c/dag/covid_tasks.py
+[2020-06-02 16:45:20,078] {scheduler_job.py:1284} INFO - Processing covid_tasks
+[2020-06-02 16:45:20,092] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: covid_tasks> because no tasks in DAG have SLAs
+[2020-06-02 16:45:20,096] {scheduler_job.py:161} INFO - Processing /mnt/c/dag/covid_tasks.py took 0.253 seconds

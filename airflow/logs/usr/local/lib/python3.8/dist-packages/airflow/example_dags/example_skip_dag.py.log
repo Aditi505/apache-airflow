@@ -1,0 +1,70 @@
+[2020-06-01 14:51:19,574] {scheduler_job.py:153} INFO - Started process (PID=460) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:51:19,581] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:51:19,581] {logging_mixin.py:112} INFO - [2020-06-01 14:51:19,581] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:51:19,590] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:51:19,734] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.160 seconds
+[2020-06-01 14:53:25,434] {scheduler_job.py:153} INFO - Started process (PID=570) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:53:25,456] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:53:25,462] {logging_mixin.py:112} INFO - [2020-06-01 14:53:25,461] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:53:25,473] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:53:25,654] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.220 seconds
+[2020-06-01 14:54:13,477] {scheduler_job.py:153} INFO - Started process (PID=598) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:54:13,482] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:54:13,483] {logging_mixin.py:112} INFO - [2020-06-01 14:54:13,483] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:54:13,490] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:54:13,620] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.144 seconds
+[2020-06-01 14:55:01,509] {scheduler_job.py:153} INFO - Started process (PID=630) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:55:01,514] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:55:01,515] {logging_mixin.py:112} INFO - [2020-06-01 14:55:01,515] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:55:01,523] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:55:01,698] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.189 seconds
+[2020-06-01 14:55:49,581] {scheduler_job.py:153} INFO - Started process (PID=658) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:55:49,586] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:55:49,587] {logging_mixin.py:112} INFO - [2020-06-01 14:55:49,587] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:55:49,594] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:55:49,716] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.134 seconds
+[2020-06-01 14:56:37,631] {scheduler_job.py:153} INFO - Started process (PID=690) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:56:37,637] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:56:37,637] {logging_mixin.py:112} INFO - [2020-06-01 14:56:37,637] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:56:37,646] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:56:37,760] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.129 seconds
+[2020-06-01 14:57:18,193] {scheduler_job.py:153} INFO - Started process (PID=731) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:57:18,198] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:57:18,198] {logging_mixin.py:112} INFO - [2020-06-01 14:57:18,198] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:57:18,206] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:57:18,341] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.148 seconds
+[2020-06-01 14:58:07,066] {scheduler_job.py:153} INFO - Started process (PID=759) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:58:07,071] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:58:07,072] {logging_mixin.py:112} INFO - [2020-06-01 14:58:07,072] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:58:07,080] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:58:07,230] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.164 seconds
+[2020-06-01 14:58:55,125] {scheduler_job.py:153} INFO - Started process (PID=791) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:58:55,131] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:58:55,132] {logging_mixin.py:112} INFO - [2020-06-01 14:58:55,131] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:58:55,142] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:58:55,292] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.168 seconds
+[2020-06-01 14:59:43,154] {scheduler_job.py:153} INFO - Started process (PID=819) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:59:43,161] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 14:59:43,162] {logging_mixin.py:112} INFO - [2020-06-01 14:59:43,162] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:59:43,170] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 14:59:43,301] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.146 seconds
+[2020-06-01 15:00:31,245] {scheduler_job.py:153} INFO - Started process (PID=851) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:00:31,254] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 15:00:31,255] {logging_mixin.py:112} INFO - [2020-06-01 15:00:31,255] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:00:31,267] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:00:31,394] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.149 seconds
+[2020-06-01 15:01:19,281] {scheduler_job.py:153} INFO - Started process (PID=883) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:01:19,288] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 15:01:19,289] {logging_mixin.py:112} INFO - [2020-06-01 15:01:19,289] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:01:19,296] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:01:19,485] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.205 seconds
+[2020-06-01 15:02:07,339] {scheduler_job.py:153} INFO - Started process (PID=911) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:02:07,346] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 15:02:07,347] {logging_mixin.py:112} INFO - [2020-06-01 15:02:07,347] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:02:07,354] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:02:07,570] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.231 seconds
+[2020-06-01 15:02:55,391] {scheduler_job.py:153} INFO - Started process (PID=943) to work on /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:02:55,396] {scheduler_job.py:1562} INFO - Processing file /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2020-06-01 15:02:55,397] {logging_mixin.py:112} INFO - [2020-06-01 15:02:55,397] {dagbag.py:396} INFO - Filling up the DagBag from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:02:55,405] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py
+[2020-06-01 15:02:55,570] {scheduler_job.py:161} INFO - Processing /usr/local/lib/python3.8/dist-packages/airflow/example_dags/example_skip_dag.py took 0.179 seconds

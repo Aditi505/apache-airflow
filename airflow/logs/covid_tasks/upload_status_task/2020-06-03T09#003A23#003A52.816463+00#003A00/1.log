@@ -1,0 +1,16 @@
+[2020-06-03 14:57:01,378] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_tasks.upload_status_task 2020-06-03T09:23:52.816463+00:00 [queued]>
+[2020-06-03 14:57:01,388] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: covid_tasks.upload_status_task 2020-06-03T09:23:52.816463+00:00 [queued]>
+[2020-06-03 14:57:01,388] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-03 14:57:01,388] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-06-03 14:57:01,388] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-03 14:57:01,519] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): upload_status_task> on 2020-06-03T09:23:52.816463+00:00
+[2020-06-03 14:57:01,539] {standard_task_runner.py:53} INFO - Started process 326 to run task
+[2020-06-03 14:57:01,936] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: covid_tasks.upload_status_task 2020-06-03T09:23:52.816463+00:00 [running]> LAPTOP-P8ICNHVB.localdomain
+[2020-06-03 14:57:06,803] {logging_mixin.py:112} INFO - Starting job bbb02c31-1f02-427f-9e31-1a022adc09a9
+[2020-06-03 14:57:11,968] {logging_mixin.py:112} INFO - Job finished.
+[2020-06-03 14:57:12,534] {logging_mixin.py:112} INFO - Loaded 3 rows.
+[2020-06-03 14:57:12,534] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-06-03 14:57:12,537] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=covid_tasks, task_id=upload_status_task, execution_date=20200603T092352, start_date=20200603T092701, end_date=20200603T092712
+[2020-06-03 14:57:16,419] {logging_mixin.py:112} INFO - [2020-06-03 14:57:16,419] {local_task_job.py:103} INFO - Task exited with return code 0

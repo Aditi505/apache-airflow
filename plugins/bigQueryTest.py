@@ -34,7 +34,7 @@ def load_data_into_bqtable(date):
     job_config.skip_leading_rows = 1
     # The source format defaults to CSV, so the line below is optional.
     job_config.source_format = bigquery.SourceFormat.CSV
-    url = f"airflow_home/plugins/Output/CovidStats({date}).csv"
+    url = f"/mnt/c/plugins/Output/CovidStats({date}).csv"
     with open(url, "rb") as source_file:
         load_job = client.load_table_from_file(
             source_file, dataset_ref.table("covid_data"), job_config=job_config
@@ -90,7 +90,7 @@ def load_status_into_bq_table():
     job_config.skip_leading_rows = 1
     # The source format defaults to CSV, so the line below is optional.
     job_config.source_format = bigquery.SourceFormat.CSV
-    url = f"airflow_home/plugins/Output/UploadPercentageStatus.csv"
+    url = f"/mnt/c/plugins/Output/UploadPercentageStatus.csv"
     with open(url, "rb") as source_file:
         load_job = client.load_table_from_file(
             source_file, dataset_ref.table("upload_status"), job_config=job_config

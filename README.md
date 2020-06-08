@@ -1,5 +1,5 @@
 
-Steps to install airflow on windows without Docker on the local system
+Steps to install Airflow on windows without Docker on the local system
 
 Step 1: Control Panel | Programs and Features | Turn Windows features on or off
 
@@ -34,3 +34,5 @@ Step 9: On the airflow server UI, Click on “On” for the DAG we want to sched
 
 Step 10: Click on Trigger DAG button 
 
+* Refactored bigQueryTest.py file
+* Modified upload percentage logic in covid_tasks.py file

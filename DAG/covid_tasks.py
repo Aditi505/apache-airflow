@@ -6,7 +6,8 @@ import pandas as pd
 import airflow
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from bigQueryTest import BigQuery
+from bigQueryTest import *
+
 
 #Default arguments
 default_args = {
@@ -69,7 +70,7 @@ def upload_status():
     df2 = pd.read_csv('/mnt/c/plugins/Output/uploaded_record_length.csv')
     uploaded_record_length = df2.at[0, 'records']
 
-    percentage = uploaded_record_length / saved_record_length * 100
+    percentage = float(uploaded_record_length) / float(saved_record_length) * 100
     data = [[today, percentage]]
     df = pd.DataFrame(data, columns=["Date", "Percentage of Upload"])
     df.to_csv('/mnt/c/plugins/Output/UploadPercentageStatus.csv', index=False)

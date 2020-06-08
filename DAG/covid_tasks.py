@@ -58,7 +58,7 @@ def get_statewise_data():
 
 
 def upload_data():
-    uploaded_record_length = BigQuery().load_data_into_bqtable(today)
+    uploaded_record_length = load_data_into_bqtable(today)
     uploaded_record_length_data = [[uploaded_record_length]]
     df = pd.DataFrame(uploaded_record_length_data, columns=["records"])
     df.to_csv('/mnt/c/plugins/Output/uploaded_record_length.csv', index=False)
@@ -75,7 +75,7 @@ def upload_status():
     df = pd.DataFrame(data, columns=["Date", "Percentage of Upload"])
     df.to_csv('/mnt/c/plugins/Output/UploadPercentageStatus.csv', index=False)
 
-    BigQuery().load_status_into_bq_table()
+    load_status_into_bq_table()
 
 
 #Task1
